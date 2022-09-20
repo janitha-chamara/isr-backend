@@ -1,7 +1,7 @@
 ﻿using BusinessLogic.Models;
 using ISRDataAccess.Models;
 
-namespace BusinessLogic.Services
+namespace BusinessLogic.Interfaces
 {
     public interface IJobService
     {

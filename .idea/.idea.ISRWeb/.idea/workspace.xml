@@ -5,28 +5,86 @@
     <projectFile profileName="ISRAPI">ISRAPI/ISRAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d9c1eec-2a20-43b0-b84b-7577fa191005" name="Changes" comment="" />
+    <list default="true" id="5d9c1eec-2a20-43b0-b84b-7577fa191005" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ISRWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ISRWeb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/BusinessLogic.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/BusinessLogic.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/Services/PollWmfDataService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/Services/PollWmfDataService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/bin/Debug/net6.0/BusinessLogic.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/bin/Debug/net6.0/BusinessLogic.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/bin/Debug/net6.0/BusinessLogic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/bin/Debug/net6.0/BusinessLogic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/bin/Debug/net6.0/BusinessLogic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/bin/Debug/net6.0/BusinessLogic.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/obj/BusinessLogic.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/obj/BusinessLogic.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/obj/BusinessLogic.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/obj/BusinessLogic.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/obj/BusinessLogic.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/obj/BusinessLogic.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/obj/Debug/net6.0/BusinessLogic.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/obj/Debug/net6.0/BusinessLogic.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/obj/Debug/net6.0/BusinessLogic.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/obj/Debug/net6.0/BusinessLogic.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/obj/Debug/net6.0/BusinessLogic.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/obj/Debug/net6.0/BusinessLogic.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/obj/Debug/net6.0/BusinessLogic.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/obj/Debug/net6.0/BusinessLogic.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/obj/Debug/net6.0/BusinessLogic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/obj/Debug/net6.0/BusinessLogic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/obj/Debug/net6.0/BusinessLogic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/obj/Debug/net6.0/BusinessLogic.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataMigrations/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DataMigrations/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/bin/Debug/net6.0/BusinessLogic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/bin/Debug/net6.0/BusinessLogic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/bin/Debug/net6.0/BusinessLogic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/bin/Debug/net6.0/BusinessLogic.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/bin/Debug/net6.0/ISRAPI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/bin/Debug/net6.0/ISRAPI.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/bin/Debug/net6.0/ISRAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/bin/Debug/net6.0/ISRAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/bin/Debug/net6.0/ISRAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/bin/Debug/net6.0/ISRAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/obj/Debug/net6.0/ISRAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/obj/Debug/net6.0/ISRAPI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/obj/Debug/net6.0/ISRAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/obj/Debug/net6.0/ISRAPI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/obj/Debug/net6.0/ISRAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/obj/Debug/net6.0/ISRAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/obj/Debug/net6.0/ISRAPI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/obj/Debug/net6.0/ISRAPI.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/obj/Debug/net6.0/ISRAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/obj/Debug/net6.0/ISRAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/obj/Debug/net6.0/ISRAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/obj/Debug/net6.0/ISRAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/obj/ISRAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/obj/ISRAPI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/obj/ISRAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/obj/ISRAPI.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/obj/ISRAPI.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/obj/ISRAPI.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRAPI/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/ISRAPI/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISRDataAccess/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ISRDataAccess/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5956701c92ec47bc98145555cd08eafca23890/_13f9f/IList.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2F2lSP9VG8VkGPmsPBHSqtLN23s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver.localdb&quot;,
+      &quot;sqlserver&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ISRAPI">
     <configuration name="ISRAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ISRAPI/ISRAPI.csproj" />
@@ -67,15 +125,71 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663698060419</updated>
-      <workItem from="1663698065211" duration="108000" />
+      <workItem from="1663698065211" duration="4325000" />
+      <workItem from="1663702553913" duration="5111000" />
+      <workItem from="1663920411958" duration="88000" />
+      <workItem from="1664121884827" duration="6034000" />
+      <workItem from="1664161942956" duration="805000" />
+      <workItem from="1664162779380" duration="471000" />
+      <workItem from="1664300332953" duration="3862000" />
     </task>
+    <task id="LOCAL-00001" summary="Enhance job related stuff">
+      <created>1663702862728</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663702862728</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Enhance job related stuff">
+      <created>1663703450099</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663703450099</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Enhance job related stuff">
+      <created>1663707546754</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663707546754</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Enhance job related stuff">
+      <created>1664162812061</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664162812061</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Enhance job related stuff">
+      <created>1664162843881</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664162843881</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Enhance job related stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhance job related stuff" />
   </component>
 </project>

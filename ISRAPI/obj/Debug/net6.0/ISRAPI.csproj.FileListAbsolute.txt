@@ -132,3 +132,13 @@ C:\Users\jsoft\jsoft\ISR Web\ISRAPI\obj\Debug\net6.0\scopedcss\bundle\ISRAPI.sty
 C:\Users\jsoft\jsoft\ISR Web\ISRAPI\obj\Debug\net6.0\ISRAPI.csproj.CopyComplete
 C:\Users\jsoft\jsoft\ISR Web\ISRAPI\obj\Debug\net6.0\ISRAPI.genruntimeconfig.cache
 C:\Users\jsoft\jsoft\ISR Web\ISRAPI\obj\Debug\net6.0\ref\ISRAPI.dll
+C:\Users\jsoft\jsoft\ISR Web\ISRAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\jsoft\jsoft\ISR Web\ISRAPI\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\jsoft\jsoft\ISR Web\ISRAPI\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\jsoft\jsoft\ISR Web\ISRAPI\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\jsoft\jsoft\ISR Web\ISRAPI\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\jsoft\jsoft\ISR Web\ISRAPI\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\jsoft\jsoft\ISR Web\ISRAPI\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\jsoft\jsoft\ISR Web\ISRAPI\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\jsoft\jsoft\ISR Web\ISRAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jsoft\jsoft\ISR Web\ISRAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

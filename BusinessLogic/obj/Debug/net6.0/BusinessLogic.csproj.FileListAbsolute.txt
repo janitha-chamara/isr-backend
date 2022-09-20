@@ -32,3 +32,5 @@ C:\Users\jsoft\jsoft\ISR Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.Assemb
 C:\Users\jsoft\jsoft\ISR Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
 C:\Users\jsoft\jsoft\ISR Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
 C:\Users\jsoft\jsoft\ISR Web\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+C:\Users\jsoft\jsoft\ISR Web\BusinessLogic\bin\Debug\net6.0\BusinessLogic.runtimeconfig.json
+C:\Users\jsoft\jsoft\ISR Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.genruntimeconfig.cache

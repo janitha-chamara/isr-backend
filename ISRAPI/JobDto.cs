@@ -14,6 +14,7 @@ namespace ISRAPI
         public DateTime DueDate { get; set; }
         public string StatusID { get; set; }
         public string JobCategory { get; set; }
+        public bool ManageVisaISR { get; set; }
         public int ClientID { get; set; }
         public int BusinessUnitID { get; set; }
         public int WFMId { get; set; }
@@ -44,19 +45,35 @@ namespace ISRAPI
 
         public static JobDto ToJobDto(this JobModel jobModel)
         {
-            var dst = new JobDto();
-            dst.StatusID = jobModel.StatusID;
-            dst.AccountManagerID = jobModel.AccountManagerID;
-            dst.LastUpdate = jobModel.LastUpdate;
-            dst.DueDate = jobModel.DueDate;
-            dst.JobCategory = jobModel.JobCategory;
-            dst.StartDate = jobModel.StartDate;
-            dst.WFMLastUpdate = jobModel.WFMLastUpdate;
-
-
-
-
-            return dst;
+            var job = new JobDto();
+            
+            job.JobId = jobModel.JobId;
+            job.JobNo = jobModel.JobNo;
+            job.JobName = jobModel.JobName;
+            job.Description = jobModel.Description;
+            job.StartDate = jobModel.StartDate;
+            job.DueDate = jobModel.DueDate;
+            job.StatusID = jobModel.StatusID;
+            job.JobCategory = jobModel.JobCategory;
+            job.ManageVisaISR = jobModel.ManageVisaISR;
+            job.ClientID = jobModel.ClientID;
+            job.BusinessUnitID = jobModel.BusinessUnitID;
+            job.WFMId = jobModel.WFMId;
+            job.WFMLastUpdate = jobModel.WFMLastUpdate;
+            job.LastUpdate = jobModel.LastUpdate;
+            job.ProjectMangerID = jobModel.ProjectMangerID;
+            job.AccountManagerID = jobModel.AccountManagerID;
+            job.QuotedHours = jobModel.QuotedHours;
+            job.ActualHours = jobModel.ActualHours;
+            job.PercentUsed = jobModel.PercentUsed;
+            job.EstToComplHours = jobModel.EstToComplHours;
+            job.PercentComplete = jobModel.PercentComplete;
+            job.DifferencePercent = jobModel.DifferencePercent;
+            job.ForecastHours = jobModel.ForecastHours;
+            job.VarianceHours = jobModel.VarianceHours;
+            job.VariancePercent = jobModel.VariancePercent;
+            
+            return job;
         }
 
     }

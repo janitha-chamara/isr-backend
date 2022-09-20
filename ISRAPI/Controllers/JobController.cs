@@ -1,10 +1,9 @@
-﻿using BusinessLogic.Services;
-using Microsoft.AspNetCore.Http;
+﻿using BusinessLogic.Interfaces;
+using BusinessLogic.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ISRAPI.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
     public class JobController : ControllerBase
     {
@@ -12,25 +11,28 @@ namespace ISRAPI.Controllers
 
         public JobController(IJobService jobService)
         {
+            var pollWmfDataService = new PollWmfDataService();
+            pollWmfDataService.PollWmfData();
             _jobService = jobService;
         }
-        // [HttpGet, Route("{GetJobById}")]
-        // public BaseResponse<JobDto> GetJobById(int id)
-        // {
-        //     var result = _jobService.GetJobById(id);
-        //
-        //     return result.Success
-        //         ? new BaseResponse<JobDto>(result.Response.ToJobDto())
-        //         : new BaseResponse<JobDto>(result.Message, false);
-        // }
 
-        [HttpGet, Route("{GetAllJob}")]
+        [HttpGet, Route("api/[controller]/FindJobById")]
+        public BaseResponse<JobDto> GetJobById(int id)
+        {
+            var result = _jobService.GetJobById(id);
+
+            return result.Success
+                ? new BaseResponse<JobDto>(result.Response.ToJobDto())
+                : new BaseResponse<JobDto>(result.Message, false);
+        }
+
+        [HttpGet, Route("api/[controller]/GetAllJobs")]
         public BaseResponse<IList<JobDto>> GetAllJob()
         {
-            var result = _jobService.GetAllJob();
-            var response =  result.Response.Select(x => x.ToJobDto()).ToList();
+            var allJobs = _jobService.GetAllJob();
+            var jobDtoList = allJobs.Response.Select(job => job.ToJobDto()).ToList();
 
-            return new BaseResponse<IList<JobDto>>(response);
+            return new BaseResponse<IList<JobDto>>(jobDtoList);
         }
     }
 }
