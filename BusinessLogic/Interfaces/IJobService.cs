@@ -7,5 +7,7 @@ namespace BusinessLogic.Interfaces
     {
         ServiceResponse<JobModel> GetJobById(int roleId);
         ServiceResponse<IList<JobModel>> GetAllJob();
+
+        ServiceResponse<int> AddJob(JobModel jobModel);
     }
 }

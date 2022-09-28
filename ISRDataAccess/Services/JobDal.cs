@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace ISRDataAccess.Services
 {
-    public class JobDal : BaseDal ,IJobDal
+    public class JobDal : BaseDal, IJobDal
     {
         public Models.JobModel GetJobById(int id)
         {
@@ -17,11 +17,22 @@ namespace ISRDataAccess.Services
             return result.ToJobModel();
         }
 
-        public IList <Models.JobModel> GetAllJob()
+        public IList<Models.JobModel> GetAllJob()
         {
             var result = _db.Jobs;
 
             return result.Select(x => x.ToJobModel()).ToList();
+        }
+
+        public int AddJobs(JobModel job)
+        {
+            Job newjob = job.ToJob();
+
+            
+            _db.Jobs.Add(newjob);
+            _db.SaveChanges();
+
+            return newjob.JobId;
         }
     }
 }

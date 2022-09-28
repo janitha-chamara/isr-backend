@@ -34,5 +34,15 @@ namespace ISRAPI.Controllers
 
             return new BaseResponse<IList<JobDto>>(jobDtoList);
         }
+
+        [HttpPost, Route("api/[controller]/AddJobs")]
+        public BaseResponse<int> AddJobs( JobDto jobDto)
+        {
+            var result = _jobService.AddJob(jobDto.ToJobModel());
+
+            return result.Success
+                ? new BaseResponse<int>(result.Response) 
+                : new BaseResponse<int>(result.Message,false);
+        }
     }
 }

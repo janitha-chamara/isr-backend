@@ -38,9 +38,35 @@ namespace ISRAPI
     {
         public static JobModel ToJobModel(this JobDto jobDto)
         {
-            var dst = new JobModel();
-            dst.StatusID = jobDto.StatusID;
-            return dst;
+            var job = new JobModel();
+
+            job.JobId = jobDto.JobId;
+            job.JobNo = jobDto.JobNo;
+            job.JobName = jobDto.JobName;
+            job.Description = jobDto.Description;
+            job.StartDate = jobDto.StartDate;
+            job.DueDate = jobDto.DueDate;
+            job.StatusID = jobDto.StatusID;
+            job.JobCategory = jobDto.JobCategory;
+            job.ManageVisaISR = jobDto.ManageVisaISR;
+            job.ClientID = jobDto.ClientID;
+            job.BusinessUnitID = jobDto.BusinessUnitID;
+            job.WFMId = jobDto.WFMId;
+            job.WFMLastUpdate = jobDto.WFMLastUpdate;
+            job.LastUpdate = jobDto.LastUpdate;
+            job.ProjectMangerID = jobDto.ProjectMangerID;
+            job.AccountManagerID = jobDto.AccountManagerID;
+            job.QuotedHours = jobDto.QuotedHours;
+            job.ActualHours = jobDto.ActualHours;
+            job.PercentUsed = jobDto.PercentUsed;
+            job.EstToComplHours = jobDto.EstToComplHours;
+            job.PercentComplete = jobDto.PercentComplete;
+            job.DifferencePercent = jobDto.DifferencePercent;
+            job.ForecastHours = jobDto.ForecastHours;
+            job.VarianceHours = jobDto.VarianceHours;
+            job.VariancePercent = jobDto.VariancePercent;
+
+            return job;
         }
 
         public static JobDto ToJobDto(this JobModel jobModel)

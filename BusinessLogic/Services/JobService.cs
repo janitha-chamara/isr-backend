@@ -24,6 +24,12 @@ namespace BusinessLogic.Services
             var allJobs = _jobDal.GetAllJob();
             return new ServiceResponse<IList<JobModel>>(allJobs);
         }
+
+        public ServiceResponse <int> AddJob(JobModel jobModel)
+        {
+            int jobid = _jobDal.AddJobs(jobModel);
+                return new ServiceResponse<int>(jobid);
+        }
     }
 
 }

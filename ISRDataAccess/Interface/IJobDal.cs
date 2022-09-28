@@ -1,4 +1,5 @@
-﻿using ISRDataAccess.Models;
+﻿using DataMigrations.DataModels;
+using ISRDataAccess.Models;
 
 namespace ISRDataAccess.Services
 {
@@ -6,5 +7,7 @@ namespace ISRDataAccess.Services
     {
         JobModel GetJobById(int id);
         IList<Models.JobModel> GetAllJob();
+
+        int AddJobs(JobModel job);
     }
 }

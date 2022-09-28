@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jsoft\\jsoft\\ISR Web\\DataMigrations\\DataMigrations.csproj": {}
+    "C:\\Development\\ISR WEB\\DataMigrations\\DataMigrations.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jsoft\\jsoft\\ISR Web\\DataMigrations\\DataMigrations.csproj": {
+    "C:\\Development\\ISR WEB\\DataMigrations\\DataMigrations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jsoft\\jsoft\\ISR Web\\DataMigrations\\DataMigrations.csproj",
+        "projectUniqueName": "C:\\Development\\ISR WEB\\DataMigrations\\DataMigrations.csproj",
         "projectName": "DataMigrations",
-        "projectPath": "C:\\Users\\jsoft\\jsoft\\ISR Web\\DataMigrations\\DataMigrations.csproj",
-        "packagesPath": "C:\\Users\\jsoft\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jsoft\\jsoft\\ISR Web\\DataMigrations\\obj\\",
+        "projectPath": "C:\\Development\\ISR WEB\\DataMigrations\\DataMigrations.csproj",
+        "packagesPath": "C:\\Users\\pathu\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\ISR WEB\\DataMigrations\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jsoft\\jsoft\\ISR Web\\NuGet.Config",
-          "C:\\Users\\jsoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Development\\ISR WEB\\NuGet.Config",
+          "C:\\Users\\pathu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
