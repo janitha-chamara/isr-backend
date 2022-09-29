@@ -26,7 +26,7 @@ namespace DataMigrations.DataModels
         [ForeignKey("ClientID")]
         public int ClientID { get; set; }
         public int BusinessUnitID { get; set; }
-        public int WFMId { get; set; }
+        public string WFMId { get; set; }
         public string WFMLastUpdate { get; set; }
         public DateTime LastUpdate { get; set; }
         public int ProjectMangerID { get; set; }

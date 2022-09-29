@@ -2,10 +2,11 @@
 
 public class JobModel
 {
+    public string UUID { get; set; }
     public int JobId { get; set; }
     public string JobNo { get; set; }
     public string JobName { get; set; }
-    public string Description { get; set; }
+    public string ? Description { get; set; }
     public DateTime StartDate { get; set; }
     public DateTime DueDate { get; set; }
     public string StatusID { get; set; }
@@ -13,7 +14,7 @@ public class JobModel
     public bool ManageVisaISR { get; set; }
     public int ClientID { get; set; }
     public int BusinessUnitID { get; set; }
-    public int WFMId { get; set; }
+    public string WFMId { get; set; }
     public string WFMLastUpdate { get; set; }
     public DateTime LastUpdate { get; set; }
     public int ProjectMangerID { get; set; }
