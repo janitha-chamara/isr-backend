@@ -5,6 +5,7 @@
         public int TaskId { get; set; }
         public int JobId { get; set; }
         public int TaskName { get; set; }
+        public string UUID { get; set; }
         public DateTime LastUpdate { get; set; }
         public decimal QuotedHours { get; set; }
         public decimal ActualHours { get; set; }

@@ -9,5 +9,6 @@ namespace BusinessLogic.Interfaces
         ServiceResponse<IList<JobModel>> GetAllJob();
 
         ServiceResponse<int> AddJob(JobModel jobModel);
+        object GetTaskByJobId(int id);
     }
 }

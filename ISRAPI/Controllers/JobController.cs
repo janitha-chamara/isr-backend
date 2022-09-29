@@ -35,6 +35,15 @@ namespace ISRAPI.Controllers
             return new BaseResponse<IList<JobDto>>(jobDtoList);
         }
 
+        [HttpGet, Route("api/[controller]/GetTaskByJobId")]
+        public BaseResponse<IList<TaskDto>> GetTaskByJobId( int id)
+        {
+            var alltask = _jobService.GetTaskByJobId(id);
+            var taskDtoList = alltask.Response.Select(task => task.ToTaskDto()).ToList();
+
+            return new BaseResponse<IList<TaskDto>>(taskDtoList);
+        }
+
         [HttpPost, Route("api/[controller]/AddJobs")]
         public BaseResponse<int> AddJobs( JobDto jobDto)
         {

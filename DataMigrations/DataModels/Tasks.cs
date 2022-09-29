@@ -10,6 +10,7 @@ namespace ISRDataAccess.Models
         [Column("TaskId")]
         public int TaskId { get; set; }
         public int JobId { get; set; }
+        public int UUID { get; set; }
         public int TaskName { get; set; }
         public DateTime LastUpdate { get; set; }
         public decimal QuotedHours { get; set; }

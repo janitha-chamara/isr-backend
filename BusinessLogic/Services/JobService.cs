@@ -14,9 +14,9 @@ namespace BusinessLogic.Services
         {
             _jobDal = jobDal;
         }
-        public ServiceResponse<JobModel> GetJobById(int roleId)
+        public ServiceResponse<JobModel> GetJobById(int id)
         {
-            return new ServiceResponse<JobModel>(_jobDal.GetJobById(roleId));
+            return new ServiceResponse<JobModel>(_jobDal.GetJobById(id));
         }
 
         public ServiceResponse<IList<JobModel>> GetAllJob()
