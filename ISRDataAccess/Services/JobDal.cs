@@ -1,0 +1,46 @@
+﻿
+using Data.DataAccess.Interfaces;
+using Data.DataAccess.Services;
+using DataMigrations.DataModels;
+using ISRDataAccess.Extentions;
+using ISRDataAccess.Models;
+using System.Collections.Generic;
+
+namespace ISRDataAccess.Services
+{
+    public class JobDal : BaseDal, IJobDal
+    {
+        public Models.JobModel GetJobById(int id)
+        {
+            var result = _db.Jobs.FirstOrDefault(d => d.Id == id);
+
+            return result.ToJobModel();
+        }
+
+        public IList<Models.JobModel> GetAllJob()
+        {
+            var result = _db.Jobs;
+            return result.Select(x => x.ToJobModel()).ToList();
+        }
+
+        public int AddJobs(JobModel job)
+        {
+            Job newjob = job.ToJob();
+            var jobexists = _db.Jobs.Any(d => d.UUID == newjob.UUID);
+            if (jobexists != true)
+            {
+                _db.Jobs.Add(newjob);
+                _db.SaveChanges();
+            }
+            else
+            {
+                _db.Jobs.Update(newjob);
+                _db.SaveChanges();
+            }
+
+
+            return newjob.Id;
+        }
+
+    }
+}

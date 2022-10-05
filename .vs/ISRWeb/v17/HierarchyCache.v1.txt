@@ -1,0 +1,763 @@
+﻿++Solution 'ISRWeb' ‎(4 of 4 projects)
+i:{00000000-0000-0000-0000-000000000000}:ISRWeb.sln
+++ISRDataAccess
+i:{00000000-0000-0000-0000-000000000000}:ISRDataAccess
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\isrdataaccess\bin\debug\net6.0\isrdataaccess.dll
+++Dependencies
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:>936
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:>943
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:>977
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:>1222
+++Analyzers
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:analyzers
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:analyzers
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:analyzers
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:analyzers
+++Frameworks
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:frameworks
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:frameworks
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:frameworks
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:frameworks
+++Packages
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:packages
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:packages
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:packages
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:packages
+++Projects
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:projects
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:projects
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:projects
+++Data
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\data\
+++ISRDbContext.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\data\isrdbcontext.cs
+++Extentions
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\extentions\
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\extentions\
+++ClinetExtenion.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\extentions\clinetextenion.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\extentions\clinetextenion.cs
+++JobExtention.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\extentions\jobextention.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\extentions\jobextention.cs
+++TaskExtention.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\extentions\taskextention.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\extentions\taskextention.cs
+++Interface
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\interface\
+++IBaseDal.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\interface\ibasedal.cs
+++IClientDal.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\interface\iclientdal.cs
+++IJobDal.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\interface\ijobdal.cs
+++ITaskDal.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\interface\itaskdal.cs
+++Models
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\models\
+++BusinessUnitModel.cs
+++ClientModel.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\models\clientmodel.cs
+++EmployeeModel.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\models\employeemodel.cs
+++EmployeeRoleModel.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\models\employeerolemodel.cs
+++JobModel.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\models\jobmodel.cs
+++LookUpModel.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\models\lookupmodel.cs
+++RoleModel.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\models\rolemodel.cs
+++TaskModel.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\models\taskmodel.cs
+++Services
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\services\
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\services\
+++BaseDal.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\services\basedal.cs
+++ClientDal.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\services\clientdal.cs
+++JobDal.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\services\jobdal.cs
+++TaskDal.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\services\taskdal.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\users\pathu\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.8\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\users\pathu\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.8\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\users\pathu\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.8\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\users\pathu\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\users\pathu\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\users\pathu\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\users\pathu\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\microsoft.netcore.app
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\microsoft.netcore.app
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\microsoft.netcore.app
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\israpi\microsoft.netcore.app
+++Microsoft.AspNetCore.Cors (2.2.0)
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:>1273
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:>1259
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:>1257
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:>1237
+++Microsoft.EntityFrameworkCore (6.0.8)
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:>1272
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:>1253
+++DataMigrations
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\datamigrations\bin\debug\net6.0\datamigrations.dll
+i:{00000000-0000-0000-0000-000000000000}:DataMigrations
+++BusinessLogic
+i:{00000000-0000-0000-0000-000000000000}:BusinessLogic
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\businesslogic\businesslogic.csproj
+++EntityFramework (6.4.4)
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:>1261
+++Microsoft.AspNetCore.WebUtilities (2.2.0)
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:>1262
+++Microsoft.Exchange.WebServices (2.2.0)
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:>1260
+++Nancy (2.0.0)
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:>1342
+++Newtonsoft.Json (13.0.2-beta2)
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:>1256
+++Common
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\common\
+++FileModel.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\common\filemodel.cs
+++ServiceResponse.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\common\serviceresponse.cs
+++Interfaces
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\interfaces\
+++IClientService.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\interfaces\iclientservice.cs
+++IJobService.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\interfaces\ijobservice.cs
+++ITaskService.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\interfaces\itaskservice.cs
+++Model
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\
+++Paging
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\paging\
+++Assigned.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\assigned.cs
+++Client.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\client.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\datamodels\client.cs
+++Contact.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\contact.cs
+++Job.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\job.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\datamodels\job.cs
+++JobFilterModel.cs
+++JobListItemModel.cs
+++Jobs.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\jobs.cs
+++Manager.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\manager.cs
+++Partner.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\partner.cs
+++Response.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\response.cs
+++SingleOrArrayConverter.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\singleorarrayconverter.cs
+++Staff.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\staff.cs
+++Task.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\task.cs
+++Tasks.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\tasks.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\datamodels\tasks.cs
+++XmlTasks.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\xmltasks.cs
+++XmlTasks2.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\xmltasks2.cs
+++ClientSavice.cs
+++JobService.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\services\jobservice.cs
+++TaskService.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\services\taskservice.cs
+++WFMExtentions
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\wfmextentions\
+++samplewfm.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\wfmextentions\samplewfm.cs
+++ToClinetMapExtensions.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\wfmextentions\toclinetmapextensions.cs
+++PagedResultModel.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\paging\pagedresultmodel.cs
+++PagingFilterModel.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\model\paging\pagingfiltermodel.cs
+++ISRAPI
+i:{00000000-0000-0000-0000-000000000000}:ISRAPI
+++Connected Services 
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:>1223
+++SQL Server Database
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:>2147
+++Properties
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\israpi\properties\
+++launchSettings.json
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\israpi\properties\launchsettings.json
+++Controllers
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\israpi\controllers\
+++ClientController.cs
+++JobController.cs
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\israpi\controllers\jobcontroller.cs
+++TaskController.cs
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\israpi\controllers\taskcontroller.cs
+++WeatherForecastController.cs
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\israpi\controllers\weatherforecastcontroller.cs
+++DTO
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\israpi\dto\
+++JobDto.cs
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\israpi\dto\jobdto.cs
+++TaskDto.cs
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\israpi\dto\taskdto.cs
+++appsettings.json
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\israpi\appsettings.json
+++BaseResponse.cs
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\israpi\baseresponse.cs
+++Program.cs
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\israpi\program.cs
+++WeatherForecast.cs
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\israpi\weatherforecast.cs
+++SQL Server Database dependency is detected
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:>2148
+++Microsoft.AspNetCore.Analyzers
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\israpi\microsoft.aspnetcore.app
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.9)
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:>1235
+++Swashbuckle.AspNetCore (6.2.3)
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:>1236
+++appsettings.Development.json
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\israpi\appsettings.development.json
+++DataModels
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\datamodels\
+++Employee.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\datamodels\employee.cs
+++EmployeeRole.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\datamodels\employeerole.cs
+++ISRContext.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\datamodels\isrcontext.cs
+++LookUp.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\datamodels\lookup.cs
+++Role.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\datamodels\role.cs
+++Migrations
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\migrations\
+++20221004001719_isr4.cs
+++ISRContextModelSnapshot.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\migrations\isrcontextmodelsnapshot.cs
+++20221004001719_isr4.Designer.cs
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.8)
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:>1254
+++Microsoft.EntityFrameworkCore.Tools (6.0.8)
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:>1258
+++bin
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\bin\
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\bin\
+++Debug
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\bin\debug\
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\bin\debug\
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\
+++net6.0
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\bin\debug\net6.0\
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\bin\debug\net6.0\
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\
+++DataMigrations.dll
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\bin\debug\net6.0\datamigrations.dll
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\bin\debug\net6.0\datamigrations.dll
+++DataMigrations.pdb
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\bin\debug\net6.0\datamigrations.pdb
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\bin\debug\net6.0\datamigrations.pdb
+++ISRDataAccess.deps.json
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\bin\debug\net6.0\isrdataaccess.deps.json
+++ISRDataAccess.dll
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\bin\debug\net6.0\isrdataaccess.dll
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\isrdataaccess.dll
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\ref\isrdataaccess.dll
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\refint\isrdataaccess.dll
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\bin\debug\net6.0\isrdataaccess.dll
+++ISRDataAccess.pdb
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\bin\debug\net6.0\isrdataaccess.pdb
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\isrdataaccess.pdb
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\bin\debug\net6.0\isrdataaccess.pdb
+++obj
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\
+++ISRDataAccess.csproj.nuget.dgspec.json
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\isrdataaccess.csproj.nuget.dgspec.json
+++ISRDataAccess.csproj.nuget.g.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\isrdataaccess.csproj.nuget.g.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\isrdataaccess.csproj.nuget.g.props
+++ISRDataAccess.csproj.nuget.g.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\isrdataaccess.csproj.nuget.g.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\isrdataaccess.csproj.nuget.g.targets
+++project.assets.json
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\project.assets.json
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\project.assets.json
+++project.nuget.cache
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\project.nuget.cache
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\project.nuget.cache
+++project.packagespec.json
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\project.packagespec.json
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\project.packagespec.json
+++rider.project.restore.info
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\rider.project.restore.info
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\rider.project.restore.info
+++ref
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\ref\
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\ref\
+++refint
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\refint\
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\refint\
+++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+++ISRDataAccess.AssemblyInfo.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\isrdataaccess.assemblyinfo.cs
+++ISRDataAccess.AssemblyInfoInputs.cache
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\isrdataaccess.assemblyinfoinputs.cache
+++ISRDataAccess.assets.cache
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\isrdataaccess.assets.cache
+++ISRDataAccess.csproj.AssemblyReference.cache
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\isrdataaccess.csproj.assemblyreference.cache
+++ISRDataAccess.csproj.BuildWithSkipAnalyzers
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\isrdataaccess.csproj.buildwithskipanalyzers
+++ISRDataAccess.csproj.CopyComplete
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\isrdataaccess.csproj.copycomplete
+++ISRDataAccess.csproj.CoreCompileInputs.cache
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\isrdataaccess.csproj.corecompileinputs.cache
+++ISRDataAccess.csproj.FileListAbsolute.txt
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\isrdataaccess.csproj.filelistabsolute.txt
+++ISRDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\isrdataaccess.generatedmsbuildeditorconfig.editorconfig
+++ISRDataAccess.GlobalUsings.g.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\obj\debug\net6.0\isrdataaccess.globalusings.g.cs
+++Imports
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:>2149
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:>2252
+++Sdk.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\sdk\sdk.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.illink.tasks\sdk\sdk.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\sdk\sdk.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.illink.tasks\sdk\sdk.props
+++Sdk.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\sdk\sdk.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\sdk\sdk.targets
+++Microsoft.Common.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.props
+++Microsoft.NET.Sdk.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
+++Microsoft.CSharp.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.targets
+++Microsoft.NET.Sdk.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
+++Microsoft.NET.Compatibility.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
+++Microsoft.NuGet.ImportBefore.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
+++NuGet.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.props
+++Microsoft.NET.Sdk.DefaultItems.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
+++Microsoft.NET.SupportedPlatforms.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
+++Microsoft.NET.ILLink.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
+++Microsoft.NET.Compatibility.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
+++Microsoft.NET.PackTool.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
+++Microsoft.NET.PackProjectTool.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
+++Microsoft.NET.Windows.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
+++Microsoft.Managed.Before.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.before.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
+++Microsoft.Managed.After.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.after.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.after.targets
+++Microsoft.NET.Sdk.Common.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
+++Microsoft.PackageDependencyResolution.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
+++Microsoft.NET.DesignerSupport.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
+++Microsoft.NET.ComposeStore.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
+++Microsoft.NET.CrossGen.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
+++Microsoft.NET.Publish.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
+++Microsoft.NET.PackTool.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
+++Microsoft.NET.PackProjectTool.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
+++Microsoft.NET.ConflictResolution.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+++Microsoft.NET.ILLink.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+++Microsoft.NET.Compatibility.Common.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+++Microsoft.EntityFrameworkCore.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\users\pathu\.nuget\packages\microsoft.entityframeworkcore\6.0.8\buildtransitive\net6.0\microsoft.entityframeworkcore.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\users\pathu\.nuget\packages\microsoft.entityframeworkcore\6.0.8\buildtransitive\net6.0\microsoft.entityframeworkcore.props
+++Microsoft.NuGet.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\microsoft.netcoresdk.bundledversions.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\microsoft.netcoresdk.bundledversions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.android)
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.android\workloadmanifest.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.android\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.ios)
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.ios\workloadmanifest.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.ios\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maccatalyst)
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.macos)
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.macos\workloadmanifest.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.macos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maui)
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maui\workloadmanifest.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maui\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.tvos)
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.tvos\workloadmanifest.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.tvos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.emscripten)
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.emscripten\workloadmanifest.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.emscripten\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.mono.toolchain)
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
+++Microsoft.CSharp.Core.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
+++Microsoft.CSharp.DesignTime.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
+++Microsoft.Common.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.targets
+++Microsoft.ServiceModel.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.servicemodel.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.servicemodel.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\microsoft.netcoresdk.bundledclitools.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\microsoft.netcoresdk.bundledclitools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
+++Microsoft.NET.ILLink.Tasks.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
+++System.Windows.Forms.Analyzers.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
+++Microsoft.Managed.Core.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.targets
+++Microsoft.Managed.DesignTime.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
+++Microsoft.Common.CurrentVersion.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
+++Microsoft.Managed.Core.CurrentVersions.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
+++Microsoft.NET.props
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.net.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.net.props
+++Microsoft.CodeAnalysis.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
+++Microsoft.Xaml.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.xaml.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.xaml.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
+++Microsoft.TeamTest.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
+++NuGet.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.targets
+++Microsoft.Docker.ImportAfter.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.docker.importafter.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.docker.importafter.targets
+++Microsoft.NET.Build.Extensions.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
+++Microsoft.NuGet.ImportAfter.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
+++Microsoft.Web.ImportAfter.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
+++Microsoft.Docker.targets
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\program files\microsoft visual studio\2022\community\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\program files\microsoft visual studio\2022\community\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
+++BusinessLogic.csproj.nuget.dgspec.json
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\businesslogic.csproj.nuget.dgspec.json
+++BusinessLogic.csproj.nuget.g.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\businesslogic.csproj.nuget.g.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\businesslogic.csproj.nuget.g.props
+++BusinessLogic.csproj.nuget.g.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\businesslogic.csproj.nuget.g.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\businesslogic.csproj.nuget.g.targets
+++BusinessLogic.AssemblyInfo.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\businesslogic.assemblyinfo.cs
+++BusinessLogic.AssemblyInfoInputs.cache
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\businesslogic.assemblyinfoinputs.cache
+++BusinessLogic.assets.cache
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\businesslogic.assets.cache
+++BusinessLogic.csproj.AssemblyReference.cache
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\businesslogic.csproj.assemblyreference.cache
+++BusinessLogic.csproj.BuildWithSkipAnalyzers
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\businesslogic.csproj.buildwithskipanalyzers
+++BusinessLogic.csproj.CopyComplete
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\businesslogic.csproj.copycomplete
+++BusinessLogic.csproj.CoreCompileInputs.cache
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\businesslogic.csproj.corecompileinputs.cache
+++BusinessLogic.csproj.FileListAbsolute.txt
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\businesslogic.csproj.filelistabsolute.txt
+++BusinessLogic.dll
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\bin\debug\net6.0\businesslogic.dll
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\businesslogic.dll
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\ref\businesslogic.dll
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\refint\businesslogic.dll
+++BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\businesslogic.generatedmsbuildeditorconfig.editorconfig
+++BusinessLogic.genruntimeconfig.cache
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\businesslogic.genruntimeconfig.cache
+++BusinessLogic.GlobalUsings.g.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\businesslogic.globalusings.g.cs
+++BusinessLogic.pdb
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\bin\debug\net6.0\businesslogic.pdb
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\obj\debug\net6.0\businesslogic.pdb
+++PollWmfDataService.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\services\pollwmfdataservice.cs
+++EntityFramework.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\users\pathu\.nuget\packages\entityframework\6.4.4\buildtransitive\netcoreapp3.0\entityframework.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\users\pathu\.nuget\packages\entityframework\6.4.4\build\netcoreapp3.0\entityframework.props
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\users\pathu\.nuget\packages\entityframework\6.4.4\build\entityframework.props
+++EntityFramework.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\users\pathu\.nuget\packages\entityframework\6.4.4\buildtransitive\netcoreapp3.0\entityframework.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\users\pathu\.nuget\packages\entityframework\6.4.4\build\netcoreapp3.0\entityframework.targets
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\users\pathu\.nuget\packages\entityframework\6.4.4\build\entityframework.targets
+++BusinessLogic.deps.json
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\bin\debug\net6.0\businesslogic.deps.json
+++BusinessLogic.runtimeconfig.json
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\bin\debug\net6.0\businesslogic.runtimeconfig.json
+++ClientService.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\services\clientservice.cs
+++WFMController.cs
+i:{6260303e-ebb2-4eb8-ba8d-6fab6ae64056}:c:\development\isr web\israpi\controllers\wfmcontroller.cs
+++EmployeeService.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\services\employeeservice.cs
+++IEmployeeService.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\interfaces\iemployeeservice.cs
+++EmployeesDal.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\services\employeesdal.cs
+++IEmployeesDal.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\interface\iemployeesdal.cs
+++ClinetExtenion - Copy.cs
+++EmployeeExtenion.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\extentions\employeeextenion.cs
+++EmployeeExtention.cs
+i:{69d6e696-cecc-4741-bb7d-8cd4368748ba}:c:\development\isr web\businesslogic\extentions\employeeextention.cs
+++20221005043324_I.cs
+++20221005043324_I.Designer.cs
+++20221005044728_irs.cs
+++20221005044728_irs.Designer.cs
+++20221005044925_isr.cs
+++20221005044925_isr.Designer.cs
+++20221005045040_u.cs
+++20221005045040_u.Designer.cs
+++20221005045059_isr.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\migrations\20221005045059_isr.cs
+++20221005045059_isr.Designer.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\migrations\20221005045059_isr.designer.cs
+++20221005045858_o.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\migrations\20221005045858_o.cs
+++20221005045858_o.Designer.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\migrations\20221005045858_o.designer.cs
+++JobModel - Copy.cs
+++WFMJobModel.cs
+i:{fdc4a87e-42a9-4959-9dd2-1c8bb22ff73c}:c:\development\isr web\isrdataaccess\models\wfmjobmodel.cs
+++20221005103031_io.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\migrations\20221005103031_io.cs
+++20221005103031_io.Designer.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\migrations\20221005103031_io.designer.cs
+++20221005105747_dghd.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\migrations\20221005105747_dghd.cs
+++20221005105747_dghd.Designer.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\migrations\20221005105747_dghd.designer.cs
+++20221005110916_jg.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\migrations\20221005110916_jg.cs
+++20221005110916_jg.Designer.cs
+i:{182f8676-113a-4d68-8af3-db71734d2b58}:c:\development\isr web\datamigrations\migrations\20221005110916_jg.designer.cs

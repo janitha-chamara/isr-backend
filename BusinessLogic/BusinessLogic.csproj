@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Extentions\ClinetExtenion.cs" />
+    <Compile Remove="Extentions\EmployeeExtention.cs" />
+    <Compile Remove="Interfaces\IClientService.cs" />
+    <Compile Remove="Interfaces\IEmployeeService.cs" />
+    <Compile Remove="Services\ClientService.cs" />
+    <Compile Remove="Services\EmployeeService.cs" />
+    <Compile Remove="Services\PollWmfDataService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Exchange.WebServices" Version="2.2.0" />
+    <PackageReference Include="Nancy" Version="2.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2-beta2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ISRDataAccess\ISRDataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

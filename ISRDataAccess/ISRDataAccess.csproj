@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Extentions\ClinetExtenion.cs" />
+    <Compile Remove="Extentions\EmployeeExtenion.cs" />
+    <Compile Remove="Interface\IClientDal.cs" />
+    <Compile Remove="Interface\IEmployeesDal.cs" />
+    <Compile Remove="Models\ClientModel.cs" />
+    <Compile Remove="Models\EmployeeModel.cs" />
+    <Compile Remove="Models\EmployeeRoleModel.cs" />
+    <Compile Remove="Models\LookUpModel.cs" />
+    <Compile Remove="Models\RoleModel.cs" />
+    <Compile Remove="Services\ClientDal.cs" />
+    <Compile Remove="Services\EmployeesDal.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataMigrations\DataMigrations.csproj" />
+  </ItemGroup>
+
+</Project>

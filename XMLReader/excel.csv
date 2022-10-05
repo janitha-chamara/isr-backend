@@ -1,0 +1,210 @@
+"ID","UUID","Name","Description","Job_Id","ClientOrderNumber","Budget","State","Type","StartDate","DueDate","InternalID","Jobs_Id"
+"SRA","569861fc-afdf-11e0-985e-8b665ea523bc","SRA Internal Activities","Task Codes effective 1st July 2010","0","","","In Progress","Internal","2010-07-01T00:00:00","2030-06-30T00:00:00","289079","0"
+"ONC","57cf1470-afdf-11e0-985e-8b665ea523bc","On-call Support","On-call Support","1","","","In Progress","","2010-11-08T00:00:00","2025-06-30T00:00:00","308249","0"
+"SADevEcoSys","2dc81a01-a65a-4280-a55f-f838771d8beb","SA IT - Development Ecosystem","","2","","","In Progress","","2012-08-29T00:00:00","2017-06-30T00:00:00","1334132","0"
+"DCDD003163","c0f92be9-d8f5-46ef-a027-e044fe0adc1f","Kanwarpreet Singh, Test Analyst, EPS","","3","D19-0147 EXT-078","392932.00","In Progress","Contractor Placement","2017-01-01T00:00:00","2020-12-24T00:00:00","14996369","0"
+"DCDD003209","f9ceaa2e-d39a-4359-9aa6-2beec8e5ab04","D19-0147 | Ian Sharrock | Lotus Notes | NT Fleet","68NN2299230 from 15 November 2021 - 13 May 2022","4","D19-0147 68NN2299230","144086.00","In Progress","Contractor Placement","2016-12-05T00:00:00","2022-05-13T00:00:00","15677414","0"
+"DCDD003209-1","76d4a967-7b9a-4c0e-af5c-94f5c14aab02","D19-0147 | Ian Sharrock | Lotus Notes Developer | Financial Systems | APRO","68NN2299230 from 15 November 2021 - 13 May 2022","5","D19-0147 68NN2299230","221723.00","In Progress","Contractor Placement","2017-06-01T00:00:00","2022-05-13T00:00:00","18919976","0"
+"Inspire","199aa088-8d8f-4f31-a964-e2cbf5b09db8","Inspire","Manages work associated with setting up Inspire as a marketable product","6","","","In Progress","Internal","2018-02-15T00:00:00","2019-02-15T00:00:00","24280228","0"
+"CEO003893","8048a023-c7a8-43b3-bc40-c81241781058","Support for Learning With Diversity (INSPIRE)","The partnership agreement between SRA and CEO NT included complementary support of INSPIRE for 4 years","7","","9000.00","In Progress","Fixed Price ","2018-01-01T00:00:00","2022-12-31T00:00:00","24585721","0"
+"DHS003918-1","4604c931-a2e5-45bd-9b36-93220b7eb4fd","Andy Hewat - Business Analyst","","8","D229021963, PO 8200033843","335087.00","In Progress","Contractor Placement","2018-04-09T00:00:00","2022-06-30T00:00:00","24999403","0"
+"EPSDD003786(2)","69f19603-39f2-4473-88a7-d783ff19c296","NextGen - Support and Maintenance","NextGen Production Hosting, Infrastructure Support and  Software Support and Maintenance 
+
+Godbee, Cath <Cath.Godbee@act.gov.au>","9","2016.28093.210","430068.00","In Progress","Fixed Price ","2018-04-10T00:00:00","2022-09-30T00:00:00","25478363","0"
+"OEH004033","0e4e60fd-b947-49ed-a05e-1d2930907558","Heritage Management System Development","This is Phase 1 which includes 4 X Releases. 
+Each Release goes into Prod. 
+There is an AAM Component. 
+Support & Maint on a separate lead and quote. 
+This is only BUILD for P1.
+NOTE: Budget includes travel approved on a trip by trip basis","10","45415367","2575829.24","In Progress","Fixed Price ","2018-06-29T00:00:00","2023-01-31T00:00:00","27271435","0"
+"DHS004150","0957a4a5-b05f-4c5c-bda3-f23bd3b52519","Steve Connell - Systems Analyst ","Shelly Vargas Replacement - Steve Connell","11","D229021963, PO 8200023857","333300.00","In Progress","Contractor Placement","2018-10-04T00:00:00","2020-06-30T00:00:00","29970194","0"
+"DoH004220","2f8ef49d-d41a-4fdc-82fb-d8c4f3813ab1","D17-0124- Gregg Marshman - Senior Business Analyst (18-1621) 6 Months","","12","D17-0026  68NN2235126","157198.00","In Progress","Contractor Placement","2018-12-17T00:00:00","2020-07-17T00:00:00","31206008","0"
+"DHS004328","f60b1ed6-edca-4b4f-8416-60a9827fc25f","Muhammad Umair Ahmad, Systems Analyst","","13","D229021963, PO 8200023857 ","50000.00","In Progress","","2019-04-16T00:00:00","2020-06-30T00:00:00","33340155","0"
+"DCDD004028-1","fb32403c-3012-421c-8521-e6ed0b909e69","Sarah Chong - EPS Budget System Review - Business Analysis ","","14","D19-0147 EXT-008","","In Progress","Contractor Placement","2019-06-17T00:00:00","2019-12-24T00:00:00","36330495","0"
+"Shared Services","eb4add0b-6520-4641-ada7-fb2993659800","Shared Services","This Job is for the use of Shared Services staff. It contains all tasks and activites undertaken by Shared Services on behalf of other SRA business units to enable these activities to be costed back to the relevant BU's as accurately as possible. ","15","","","In Progress","Internal","2019-08-12T00:00:00","2019-08-12T00:00:00","37651097","0"
+"NK004867","c9f7e6ca-4163-44d0-8a4f-3c6709be397f","NightKey Rebuild","","16","","0.00","In Progress","Fixed Price ","2020-06-24T00:00:00","2021-09-30T00:00:00","45695217","0"
+"AISNT004868","764d4eed-5cfe-4c49-85d6-38c25b67d611","Inspire for AISNT","Inspire rolled out across AISNT over a 2 year period.","17","","300000.00","In Progress","Fixed Price ","2020-10-30T00:00:00","2022-10-31T00:00:00","49759145","0"
+"DCDD004988","338fa5cf-7518-49dc-be45-24423984e9df","Nathan Watts - EPS-211 ","Detailed Solution Design - 360 Degree Data Hub for the CMSA Program
+-Nathan Watts","18","D19-0147 EPS-211","504791.00","In Progress","Time & Material","2020-11-05T00:00:00","2022-09-30T00:00:00","49841772","0"
+"LL005073","4c7c14bb-b921-4500-945f-fb2704d0b869","CSMA - 60 Days","CSMA - 60 Days
+
+8 hours x $81.25/hour (ex GST)","19"," jwebbLA0000001","39000.00","In Progress","Time & Material","2020-11-15T00:00:00","2022-07-01T00:00:00","50620258","0"
+"ATS","a163156e-d39b-4cb5-8ed6-ac5902a7fa26","acQuire Billing","SRA Principal Consultant effort involved in EnviroSys projects and to support the acQuire EnviroSys product.","20","","","In Progress","Time & Material","2021-01-01T00:00:00","2022-12-31T00:00:00","50844293","0"
+"OSBC005090","0d87c54d-262e-4098-800c-3631b802970e","Retail Bonds Azure backups","Perform a six-monthly full Azure backup of Retail Bonds Azure for 2 years","21","","8400.00","In Progress","Fixed Price ","2021-02-01T00:00:00","2023-01-31T00:00:00","51062673","0"
+"CA005204","175be2b8-d228-4b18-90f2-f436f63fd800","EARS & PAWS Hosting & Support Contract","Follow on for CA005083
+5th July 2021 to 4th July 2022?
+
+ (June 21 - May 22)
+
+Increased the budget from $98,000.00 to $143,000.00 to cover until April 2023
+
+Increased the total number of hours to 727 to reflect the extension.
+Created two new tasks (L1 support Jun 2002 - Mar 2023 and L2/L3 Jun 2002 - Mar 2023).  Allocated 130 hrs to L1 and 200 hours to L2/L3.","22","1293867 O1 58500 000","143000.00","In Progress","Fixed Price ","2021-06-01T00:00:00","2023-04-06T00:00:00","52006934","0"
+"HNSW003686","df11448b-7eb1-4671-aa61-b84361b5462d","HMS Support","HMS R1, R1.1 and R2 support and maint for 2 years plus a pro-rata period from 1st May 2021 to 30th June 2021 inc AAM","23","45417784","758493.15","In Progress","Fixed Price ","2021-05-01T00:00:00","2023-06-30T00:00:00","52072801","0"
+"DoE005234","b719bc6e-2fdd-409d-96cd-ad45a8d4b243","AUCHD Support and Maintenance 21/22","","24","C06529","36000.00","In Progress","Fixed Price ","2021-07-01T00:00:00","2022-07-29T00:00:00","52464590","0"
+"NZMCH005256","c01c43ff-f3fe-4dd2-b07d-d7965987f2f9","POD Support and Maintenance - 2021/2022","","25","","10000.00","In Progress","Fixed Price ","2021-06-30T00:00:00","2022-07-29T00:00:00","52524944","0"
+"UOA005267","fe995a96-521a-4de8-994a-de000a8d1ddb","Endometriosis Digital Platform Implementation","","26","0000455117","101000.00","In Progress","Fixed Price ","2021-07-28T00:00:00","2022-12-31T00:00:00","52787548","0"
+"DCP005300","a040840b-dbb0-4372-a5d0-e5f33642021b","P234 Placement Management Solution","","27","P319C1","800000.00","In Progress","Fixed Price ","2021-08-31T00:00:00","2022-12-31T00:00:00","53077360","0"
+"SAHA005301","a88a9edb-ddfe-4133-921e-866cbfb8710b","GIS Application Transition Services","","28","SAHA-1313","81818.18","In Progress","Fixed Price ","2021-09-06T00:00:00","2022-10-31T00:00:00","53146081","0"
+"DITT005303","e62838c5-4334-43a8-9e85-ceb130a5277c","EDIS Enhancements - Development Team","DITT Energy Development Branch –Project Manager, Business/System Analyst(s) and Application Developer via VendorPanel (VP242807).","29","92PWBPI00161/VP242807/ D19-0147","399910.00","In Progress","Time & Material","2021-09-07T00:00:00","2022-11-30T00:00:00","53147780","0"
+"QCEC5323","4da8db6f-217e-4eab-a1ee-92e03b0b8bd9","2021/2022 Renewal","Reduced License count to 1 Analysts and 3 Consumers, so 4 server widgets + cloud + desk","30","Ashleigh 6.10.2021","7877.28","In Progress","Fixed Price ","2021-11-23T00:00:00","2022-11-22T00:00:00","53432340","0"
+"AEL005306","9e61889b-8efb-4d73-9f29-684aa6314c47","Warranty System","","31","B039960540","46630.00","In Progress","Fixed Price ","2021-10-11T00:00:00","2022-09-14T00:00:00","53452320","0"
+"DCDD005331","3693becc-3d80-458e-889e-5d834030ae0a","VP267117 Redevelopment of HR and Procurement Corporate Data Warehouse Environment","","32","D19-0147 68NN2297791","2369740.00","In Progress","Time & Material","2021-10-27T00:00:00","2022-12-31T00:00:00","53640466","0"
+"DEM005281","60ee6730-bae1-4037-824d-42b441b82821","GSSA Delamerian Drilling Atlas","","33","21065500213","50000.00","In Progress","Fixed Price ","2021-11-05T00:00:00","2022-11-16T00:00:00","53746748","0"
+"DCMB005334","140267ad-ebe6-4259-a89f-baad993ebe98","AWS Hosting and Service Desk Feb 2022 - Jan 2023","Includes:
+- Hosting and Support
+- AWS Renewals ramp up
+","34","","92000.00","In Progress","Fixed Price ","2022-01-08T00:00:00","2023-01-07T00:00:00","53777298","0"
+"DCMB005336","06b6f77f-d1db-4eac-bcdf-f453072ba6c2","Application Support July 2022 to Dec 2022","Application Support once the Pre-Paid Support expires","35","","33000.00","In Progress","Time & Material","2022-07-18T00:00:00","2022-12-31T00:00:00","53777723","0"
+"CBS005255","c3d9fe36-0fec-4de9-af39-a66920bebea3","LGO - Post Liquor Reform Systems Project 1B","Projects","36","","77000.00","In Progress","Time & Material","2021-11-08T00:00:00","2022-09-30T00:00:00","53780538","0"
+"DOR005347","6c613571-9178-4819-b4ef-f5ae67e38209","GSQ Lodgement Portal - Capability Expansion Project (LPX)","","37","4500016947","340880.75","In Progress","Fixed Price ","2021-11-23T00:00:00","2022-10-21T00:00:00","53906575","0"
+"SWSA005318","ae4e937a-e093-4046-b665-649320f404a7","InfoNET Support & Maintenance Services (Service Desk)","Vendor Number:A000102
+
+1st October 2021 - 30th September 2022","38","eProjects No: 1164","38807.00","In Progress","Fixed Price ","2021-11-01T00:00:00","2022-09-30T00:00:00","53929091","0"
+"SWSA005341","346fc007-a9af-458b-9cf2-dce8f391d0aa","InfoNET Support & Maintenance Services (Baseline Application Support)","Vendor Number:A000102
+
+1st October 2021 - 30th September 2022","39","eProjects No: 1164","46080.00","In Progress","Time & Material","2021-11-01T00:00:00","2022-09-30T00:00:00","53931398","0"
+"UOA005327","ef4738c8-3dd4-473f-a05f-673ef504c074","Informatics - Subsequent Survey Requirements","","40","0000465250","33150.00","In Progress","Fixed Price ","2021-12-02T00:00:00","2022-07-31T00:00:00","54001800","0"
+"OSBC005354","01e506d8-b939-459d-984f-d537facb44db","December 2021 RBO SOW","","41","","27720.00","In Progress","Fixed Price ","2022-01-01T00:00:00","2022-07-31T00:00:00","54071805","0"
+"SRG005351","cc34b5b3-a403-490a-8f8c-0807afe4b929","HSIS and RMS Application Support","","42","4800017823","6800.00","In Progress","Time & Material","2021-12-01T00:00:00","2022-06-30T00:00:00","54119312","0"
+"AAMC005360","c85f51e7-fbaf-49d1-b162-8664d3e2d6a6","Spotfire Cloud Licenses - Year 2","Spotfire Cloud Licenses for Year 2 (18-Dec-2021 to 17-Dec-2022)","43","4502082038","5850.00","In Progress","Fixed Price ","2021-12-18T00:00:00","2022-12-17T00:00:00","54132613","0"
+"INSPIRE 3.0","d4534063-db40-46e0-8e36-cf04f8a5cbf8","INSPIRE 3.0","Non-billable internal effort for INSPIRE v3 development.","44","","","On Hold","Internal","2022-01-01T00:00:00","2023-02-28T00:00:00","54229848","0"
+"TNX005356","8e847eb5-1ca2-46f3-867b-8a20def43b8a","CATS 2022 SLA support","Change the contact and the client order no to reflect the relevant info when generating invoices. 
+
+Date               Contact                  Location                PO#               Value  
+11-Jan-2022   Nick Sibbel            NOPs                    B80613-S      $5,616
+07-Feb-2022  Atif Al Farshouti     Yanbu                    4200007533  $5,616
+17-Mar-2022  Mining Buyer          SOP                     4501200163   $5,616 
+N/A                                               Western OP
+
+Original Budget $19,656.00 including Western OP","45","4501200163","16848.00","In Progress","Fixed Price ","2022-01-01T00:00:00","2022-12-31T00:00:00","54251951","0"
+"SAPol005248","f1e46bd6-66fe-464d-ac21-4f7d0acc37d5","SAP Business Objects 4.2 Upgrade","Upgrade SAPol Business Objects from 4.1 to 4.2","46","22011400056","12000.00","In Progress","Time & Material","2022-01-21T00:00:00","2022-09-30T00:00:00","54343090","0"
+"DPC005219","dae607d4-02b4-4122-8568-7bfc64c2e9db","SAP Business Objects Upgrade","Upgrade five (5) SAP applications:
+2 x SAP Business Objects 3.1 
+2 x SAP Data Services (DTF Finance)
+1 x SAP Business Objects 4.1 ","47","","70720.00","In Progress","Time & Material","2022-01-25T00:00:00","2022-06-30T00:00:00","54370682","0"
+"RTGI005370","b0a45509-d395-4150-95d5-3f8eab557dd8","CaveCad/FaceMapper/CoreLogger Enhancements","","48","3105070935","160839.00","In Progress","Time & Material","2022-01-01T00:00:00","2022-08-31T00:00:00","54408013","0"
+"CBS005316","fc4f8de9-c0fe-4919-970a-1f8c298ad21c","RBO Landlord account email to BMS (CBSSD-242)","","49","","9300.00","In Progress","Fixed Price ","2022-02-02T00:00:00","2022-09-30T00:00:00","54456194","0"
+"CBS005317","9156a1ca-0e66-4c9c-81c8-1ee03d4e1408","Housing SA Ledger Generation (CBSICT-23137)","","50","","7130.00","In Progress","Fixed Price ","2022-02-02T00:00:00","2022-09-30T00:00:00","54456240","0"
+"SWSA005357","a4b5efdc-738f-4dc8-b348-52bfed5fde1c","(SWSASD-354) CR-88 v2: Evidence Storage Reference fields to be added to the Case File Screen","","51","","12315.00","In Progress","Fixed Price ","2022-03-01T00:00:00","2022-12-01T00:00:00","54604734","0"
+"SWSA005369","16f279be-087c-4f33-8ade-bc1b2223cc42","(SWSASD-364) Update log4j on InfoNET and IPA","","52","","16200.00","In Progress","Fixed Price ","2022-03-01T00:00:00","2022-12-08T00:00:00","54606955","0"
+"WCF005372","f53660c2-5010-420d-92fd-719dd871a818","EnviroSys Training","EnviroSys Training (4x 1 day sessions plus 1x 1 day preparation)","53","91231229","8352.00","In Progress","Fixed Price ","2022-02-18T00:00:00","2022-09-30T00:00:00","54608909","0"
+"CA005389","0fd1a0bb-c051-43f6-8e65-598242efed8f","EARS and PAWS Device Management - 2022","Biosecurity & HSE Third Party IT Services EARS & PAWS Device Management
+
+SR 1298739 O1 58500 000
+1/1/2022 to 4/7/2022
+
+Initial budget ; $49128","54","1298739 O1 58500 000","85094.00","In Progress","Fixed Price ","2022-01-01T00:00:00","2023-04-06T00:00:00","54648233","0"
+"SWSA005385","ed7800d7-0a52-43e2-95f5-1a8a3fc3946b","(SWSASD-365) CR-92 v2 InfoNET Portal password lockout","","55","","17410.00","In Progress","Fixed Price ","2022-03-07T00:00:00","2022-12-23T00:00:00","54806105","0"
+"DoE005390","e8edf683-b421-450c-8279-497df9ee8b06","SPRAT  – Addition to FPAL report","","56","","6920.00","In Progress","Fixed Price ","2022-03-17T00:00:00","2022-07-29T00:00:00","54868860","0"
+"LNAC005396","558f482c-965e-49fb-87b1-78c5e657d725","Strategic Review and Recommendation Report","Develop a Strategic Plan and Gap Analysis plus the Costed (estimates) Road Map for first 5 years, including early wins for fixing or changing existing systems, plus replacements and expansions.","57","","36000.00","In Progress","Fixed Price ","2022-03-25T00:00:00","2022-12-31T00:00:00","54943346","0"
+"DPC005374","7a8548ea-918b-4ca2-b5dc-520cc796dd3d","DPC Ad Hoc Finance Reporting Support","Ad Hoc support for Arts SA & ORSR Finance Reporting","58","","6800.00","In Progress","Time & Material","2022-03-31T00:00:00","2022-06-30T00:00:00","54994901","0"
+"DoE005355","2ba99161-053c-4092-9de9-7ccb85d43e47","ABBBS Database Maintenance 2022/2023","","59","","15000.00","In Progress","Time & Material","2022-04-01T00:00:00","2023-06-30T00:00:00","55020073","0"
+"RTD003347","dee9faa4-bd7d-4961-bf8d-4c3fffb73efe","Assistance with Catchflow reporting tool","Assistance with Catchflow reporting tool for Western Zone Abalone SA","60","","15000.00","In Progress","Fixed Price ","2022-02-21T00:00:00","2022-12-30T00:00:00","55044092","0"
+"DCDD005409","420719f6-8989-4e33-a54d-aa77d337fc0a","WIMS AND TRACKIT - CONSULTANCY","Darwin NT Worksafe Business Systems - WIMS and Trackit - Systems Solution Review
+
+Initial budget: $10200.
+Scope increased to 10 weeks","61","68NN2322245 ","71060.00","In Progress","Time & Material","2022-04-07T00:00:00","2022-10-31T00:00:00","55079160","0"
+"QPS5418","3f189313-294e-4995-bd7d-b558b9ab0000","June 2022 JS Renewal","QPD 2022 Jaspersoft Renewal","62","","43872.37","Planned","Fixed Price ","2022-04-28T00:00:00","2022-04-28T00:00:00","55231327","0"
+"DCDD005420-2","d5f45bbf-31d8-4c2e-8d2d-8260c27cd1d5","Samseetha - CCSRP IT Graduates - 6 months","","63","D19-0147 EPS-427","45760.00","In Progress","Contractor Placement","2022-04-27T00:00:00","2022-10-26T00:00:00","55244781","0"
+"DCDD005420-1","e4dfc55f-099f-4f0a-b03e-738039e384d1","Ajaykumar Patel - CCSRP IT Graduate - 6 months","","64","D19-0147 EPS-427","45760.00","In Progress","Contractor Placement","2022-04-27T00:00:00","2022-10-26T00:00:00","55245020","0"
+"DCDD005420-3","054aeed9-3ceb-4b12-b30e-5202f0c5eb52","Swathi Unnithan - CCSRP IT Graduates - 6 months","","65","D19-0147 EPS-427","45760.00","In Progress","Contractor Placement","2022-04-27T00:00:00","2022-10-26T00:00:00","55245081","0"
+"DCDD005420-4","d8ae8185-58e1-4b24-83ab-388b9b52e764","Jens Cheung - CCSRP IT Graduate - 6 months","","66","D19-0147 EPS-427","45760.00","In Progress","Contractor Placement","2022-04-27T00:00:00","2022-10-26T00:00:00","55245106","0"
+"DOR005417","b4ba3171-3eb0-49b1-9b77-b78598164153","(GDMPSD-936) Drupal Application Installation","","67","4500017933","13500.00","In Progress","Fixed Price ","2022-05-04T00:00:00","2022-08-31T00:00:00","55299662","0"
+"DCDD005400","e1c39e5c-576c-45b9-9a6b-446a9f188f53","NT TRO","EPS-428 TRO Project","68","D19-0147 EPS-428","4659280.00","In Progress","Time & Material","2022-05-02T00:00:00","2024-04-30T00:00:00","55319282","0"
+"DCDD005401","88afa689-a705-4781-abc2-4a984f104bd5","NT NDIS","EPS-428 NDIS Project","69","D19-0147 EPS-428","1950160.00","In Progress","Time & Material","2022-05-02T00:00:00","2023-04-30T00:00:00","55319396","0"
+"DCS005424","8479ce59-20eb-4c73-8e9a-13f47f47ee6c","Data Warehouse Strategy","Project Number 186","70","","82400.00","In Progress","Time & Material","2022-05-10T00:00:00","2022-07-31T00:00:00","55350348","0"
+"DCDD005426","8e1b6ce7-7aa1-41df-9eb6-265e8d7511ed","NT SerPro","EPS-428 SerPro Project - Budget to Dec but should go to end of Apr 2023","71","D19-0147 EPS-428","186880.00","In Progress","Time & Material","2022-05-16T00:00:00","2023-06-30T00:00:00","55394729","0"
+"DCDD003367","62a11514-236e-42fa-8826-3b488f0ae478","NT Veritas","EPS-428 Veritas Project  - Budget to Dec but should go to end of Apr 2023","72","D19-0147 EPS-428","186880.00","On Hold","Time & Material","2022-05-16T00:00:00","2023-06-30T00:00:00","55394971","0"
+"DA005410","8e6ed7db-c38e-4c77-91fb-ef726725dc57","WELS Pen Testing Issues","","73","TBA","33800.00","In Progress","Fixed Price ","2022-05-16T00:00:00","2022-08-31T00:00:00","55512124","0"
+"SRAPS001","4bdef027-669c-42e3-8229-3fe2c96a541c","Services of Kristen Fleming","Services of Kristen Fleming
+Estimated 2080 hours (2 years)","74","","120000.00","In Progress","Contractor Placement","2022-05-01T00:00:00","2024-05-31T00:00:00","55525855","0"
+"SWSA005437","8ced7d6a-de9a-4cff-895c-0519c0d40b42","(SWSASD-393) CR-89v2 Changes to the Inspection Report activity on InfoNET","","75","","20615.00","In Progress","Fixed Price ","2022-06-01T00:00:00","2022-11-21T00:00:00","55568542","0"
+"DCMC005380","89c2ff20-b470-47fb-a5fc-a5c32eb2b084","Support & Maintenance OPC Legislation Database","Andrew Jones
+Chief Parliamentary Counsel
+Office of the Parliamentary Counsel
+Department of the Chief Minister and Cabinet
+Northern Territory Government
+
+Level 3 Parliament House, Mitchell Street, Darwin, NT 0800
+GPO Box 3144, Darwin NT 0801
+
+t  08 8999 7741
+e andrew.jones@nt.gov.au
+w legislation.nt.gov.au
+w cmc.nt.gov.au
+","76","","32400.00","Planned","Fixed Price ","2022-07-01T00:00:00","2023-06-30T00:00:00","55595157","0"
+"DOR005433","2b8d88a1-70c2-47b1-a03c-3d3e903fef95","Level 2 Support Jul 2022 - Jun 2023","","77","","131040.00","In Progress","Fixed Price ","2022-07-01T00:00:00","2023-06-30T00:00:00","55646940","0"
+"DOR005434","d90d461f-28a5-41d8-a182-0a10694f6586","Level 3 Support Jul 2022 - Jun 2023","","78","","164640.00","In Progress","Fixed Price ","2022-07-01T00:00:00","2023-06-30T00:00:00","55646972","0"
+"DEPWS005454","c9bc2183-b0c5-4dc4-8cd0-1e4aeb677167","WIMS Documentation","Document the current Water Information Management System (WIMS) to assist with on-going support of the system","79","50PWWR100045","9000.00","In Progress","Fixed Price ","2022-06-15T00:00:00","2022-06-15T00:00:00","55686958","0"
+"DEPWS005455","1352e4c5-370f-4321-8519-d32d9b4c3157","WIMS Telerik Library Upgrade","Telerik Libraries update to latest version","80","50PWWR100046","12000.00","In Progress","Fixed Price ","2022-06-15T00:00:00","2022-07-29T00:00:00","55687111","0"
+"DIS005453","17ec4964-f517-47e2-9d58-e2e90bd8b068","SkillingSA Project","Grant Funding for assisting the Trainees from SA Govt.","81","FAA - SRA Information Technology Pty Ltd","163504.00","In Progress","Fixed Price ","2022-06-15T00:00:00","2022-12-31T00:00:00","55688023","0"
+"WEB005457","dd5016aa-4155-4146-9dff-f3d0f30210cb","Weber General Support and Fixes ","1st June 2022  to 30 June 2023","82","","960.00","In Progress","Time & Material","2022-06-01T00:00:00","2023-06-30T00:00:00","55688141","0"
+"DCDD005458","685a6bf3-7fdb-48f1-8c5c-320fd7461414","NT Tracer","Shifa and Sonal.","83","	 D19-0147 EPS-428","576600.00","Planned","Time & Material","2022-07-01T00:00:00","2023-06-30T00:00:00","55689068","0"
+"CADOSA005459","f165580c-5408-40a1-baaa-6a0d9ee3898d","CADOSA Database Screen Updates","","84","","60000.00","In Progress","Time & Material","2022-06-16T00:00:00","2022-11-30T00:00:00","55696582","0"
+"CBS005439","9ffbea70-eef8-4b07-9bd5-7e133d05ee97","ITSM 2022 - 2023","","85","","166000.00","In Progress","Time & Material","2022-07-01T00:00:00","2023-06-30T00:00:00","55702099","0"
+"DEM005463","87acab1c-b6b7-4cc2-b59a-3fe20423fb8d","TMS Support and Maintenance FY 2022/2023","DEM002914 -> DEM004839 -> DEM005251 -> DEM005463","86","22065500209","147000.00","In Progress","Time & Material","2022-07-01T00:00:00","2023-06-30T00:00:00","55745696","0"
+"DEM005464","781c8fc9-48fc-4d1e-8074-f0fedc5bacc3","SARIG Support and Maintenance 2022/2023","","87","","185995.00","In Progress","Time & Material","2022-07-01T00:00:00","2023-06-30T00:00:00","55745890","0"
+"ATS005484","d7c7ac57-e5d5-4a83-8d12-e4ec85777fc1","EnviroSys Implementation Project - Stanwell Phase 2","EnviroSys Phase 2 Implementation.
+Sub-contracted by acQuire Technology Solutions.","88","RFW01644","100000.00","In Progress","Time & Material","2022-06-23T00:00:00","2022-12-23T00:00:00","55761131","0"
+"Elder005466","af0d2071-03e0-41f8-acd1-d93b9c1ba135","Data Catalogue and Glossary Install and Configure","","89","","2720.00","In Progress","Time & Material","2022-07-01T00:00:00","2022-09-30T00:00:00","55766420","0"
+"Elder005467","b5699432-7334-4d0a-b805-35c60b711392","Data Integration Proof of Concept","","90","","18360.00","In Progress","Time & Material","2022-07-01T00:00:00","2022-09-30T00:00:00","55766455","0"
+"CER005472","a4197e56-565a-4d48-b4a3-2aab1864125a","PI 15 - Registries Team","","91","006073-7","350000.00","In Progress","Time & Material","2022-07-01T00:00:00","2022-09-30T00:00:00","55775326","0"
+"NZMCH005473","bfb03d4f-f227-4a40-8bdb-b164b9bb2120","POD Support and Maintenance - 2022/2023","","92","","10000.00","Planned","Fixed Price ","2022-07-01T00:00:00","2023-06-30T00:00:00","55775359","0"
+"DA005448","5b53f10d-71c9-4b7c-abbf-b95e51f39de0","12 months AWS hosting, Oracle Standard Edition and Maintenance Activities","","93","E00511","20250.00","In Progress","Fixed Price ","2022-07-01T00:00:00","2023-06-30T00:00:00","55775804","0"
+"DA005449","230d9742-1aee-4de6-8640-d2faba758fe9","WELS Support and Maintenance July 2022 - June 2023","","94","E00511","12000.00","In Progress","Fixed Price ","2022-07-01T00:00:00","2023-06-30T00:00:00","55775810","0"
+"DA005450","18ea6fef-0042-44c2-b51f-59cf811b8e59","WELS Database Enhancements 2022/2023","Initial budget: $81,818 excl GST
+
+Reduced the budget to reflect the following allocation:
+ 
+DA005476 - 12,280.00 excl GST
+DA005462 - $27,440.00 excl GST
+","95","E00511","42098.00","Planned","Time & Material","2022-07-01T00:00:00","2023-06-30T00:00:00","55775885","0"
+"SAPol005475","b3d91c1a-556e-41b9-9876-a954f8852a06","Data Warehouse Support - July 22 to Dec 22","","96","22011400819","87360.00","In Progress","Time & Material","2022-07-01T00:00:00","2022-12-31T00:00:00","55810544","0"
+"Elder005468","0ec521cf-e54d-4c06-a3db-e4a31bfba8e2","Data Steward Training","","97","","3910.00","In Progress","Time & Material","2022-07-01T00:00:00","2022-10-31T00:00:00","55817198","0"
+"SWSA005469","c131442b-bc74-4af0-9520-1eaf295b34d5","(SWSASD-384) CR-97 Remove credit card fields and update renewal invoice templates.","","98","","8113.00","In Progress","Fixed Price ","2022-07-04T00:00:00","2022-11-25T00:00:00","55874231","0"
+"SWSA005470","e40853d6-a10c-437c-9a97-3729da144fab","(SWSASD-412) CR-99 Changes to stop unapproved DS licence items on invoices and certificates","","99","","5077.00","In Progress","Fixed Price ","2022-07-04T00:00:00","2022-12-01T00:00:00","55874757","0"
+"SWSA005279","ba7f73e2-43c0-420a-9342-96685097590d","CR-83 (SWSASD-331) Rebuild existing invoice","","100","","26551.00","In Progress","Fixed Price ","2022-07-04T00:00:00","2022-12-05T00:00:00","55874849","0"
+"BELL005480","7ee4ea74-991c-494f-bdb3-f57289a8ecb1","Research Ethics Portal ITSM 2022/2023","","101","","33000.00","In Progress","Time & Material","2022-07-01T00:00:00","2023-06-30T00:00:00","55910402","0"
+"DoE005412","a24472fd-41f6-49ad-816d-a39ff86b8690","AHDB Support and Maintenance - July 2022 - June 2023","","102","C09717","15000.00","In Progress","Time & Material","2022-07-01T00:00:00","2023-06-30T00:00:00","55921999","0"
+"DA005476","9307b843-6c23-4a33-b718-ad2905c745ad","DAWSSD-12 - Export to CSV from internals WELS database","This new agency’s ABN is: 63 573 932 849.
+","103","E00511","12280.00","In Progress","Fixed Price ","2022-07-01T00:00:00","2022-10-31T00:00:00","55957258","0"
+"DA005462","2de76d35-287e-45a0-a640-103541b62364","WELS - Update to Dishwasher and Clothes Washing Machine - Performance Tab","","104","E00511","27440.00","In Progress","Fixed Price ","2022-07-13T00:00:00","2022-10-31T00:00:00","55957416","0"
+"NLC005451","486d083d-ae61-4ad4-8b5d-6892629d90df","NLC PAS Support Agreement 17 July 2022 - 16 July 23","Email invoices to accountspayable@nlc.org.au and Stephen Muturi <muturS@nlc.org.au>","105","PO0041667","83754.00","In Progress","Fixed Price ","2022-07-18T00:00:00","2023-07-17T00:00:00","55961873","0"
+"CDU005442","74b693d7-fdc9-4066-b1d4-476e75c446bb","Student Portal User Experience","","106","443244","32000.00","In Progress","Time & Material","2022-07-27T00:00:00","2022-09-30T00:00:00","56079306","0"
+"AISNT005490","f200e5d7-035d-41df-a0ea-4d828e9640ae","INSPIRE Nov-Dec 2022","Balance of 2022 Calendar Year","107","","25000.00","Planned","Fixed Price ","2022-11-02T00:00:00","2022-12-31T00:00:00","56081758","0"
+"AISNT005491","e50db852-6bd5-4e0e-b607-e4c1aaa61529","INSPIRE 2023 Licence","Jan - Dec 2023","108","","150000.00","Planned","Fixed Price ","2023-01-01T00:00:00","2023-12-31T00:00:00","56081994","0"
+"FU005493","40686a49-25bd-47d8-b5a2-03c7201512d2","Mindtick UI Designer","","109","","3600.00","In Progress","Time & Material","2022-08-03T00:00:00","2022-09-30T00:00:00","56158694","0"
+"OSBC005501","d105f531-feab-458f-a0f6-48d50afff39a","Information Technology Service Management","","110","","2000.00","In Progress","Time & Material","2022-08-01T00:00:00","2023-06-30T00:00:00","56213107","0"
+"DCT005496","749a0199-65b3-4a92-9f4b-d0bad30138b6","Transition In Services","","111","","148050.00","In Progress","Fixed Price ","2022-08-08T00:00:00","2022-12-31T00:00:00","56244232","0"
+"CFL005503","385b4f12-dd2d-4cee-b80a-6f5c2d1438dd","Data Process Mapping","As outlined in the report, sections 9.2.1.6.1-5, SRA proposes a number of key steps:
+•Mapping the current process and defining data flows
+•Analysing and redesign the process and data flows to identify / remove inefficiencies and bottlenecks
+•Review the redesigned solution•Implement the new reporting process","112","Signed Proposal","15000.00","In Progress","Fixed Price ","2022-10-12T00:00:00","2022-11-23T00:00:00","56245591","0"
+"DoE005505","bd8a88ff-9116-486b-a564-9c64c122ca6c","LARA Ongoing Maintenance and Support","","113","E00442","15000.00","In Progress","Time & Material","2022-08-12T00:00:00","2023-06-30T00:00:00","56248573","0"
+"DCDD005495","79e7d63c-42b8-410b-b5c7-51686701009f","EPS 211 - Data Virtualization Project","Nathan Watts","114","D19-0147 EPS-211","161954.40","Planned","Time & Material","2022-10-01T00:00:00","2023-03-31T00:00:00","56304321","0"
+"AU005512","43243dd6-e5cc-4197-94d2-98c4a9cf7a68","ITSM 2022 - 2023","","115","","5000.00","In Progress","Time & Material","2022-08-19T00:00:00","2023-06-30T00:00:00","56306460","0"
+"TNX005497","22c8a57f-2965-4c06-a370-01e1201c7a2f","Tronox SLA 2022","","116","VP1581","59760.00","In Progress","Fixed Price ","2022-06-01T00:00:00","2023-05-31T00:00:00","56335518","0"
+"CEO003430","2d8bba62-4a9c-44e2-a2cd-99210d4be80a","SharePoint and Data Warehouse Support and Maintenance - Year 3","","117","","43320.00","In Progress","Fixed Price ","2022-07-01T00:00:00","2023-06-30T00:00:00","56367446","0"
+"DITT005509","949406f3-7208-4d09-91cd-663e14e37b00","DITT NT VET PORTAL USI WEB SERVICE UPGRADE 2022","NT VET Portal - USI Web Service Upgrade","118","92PR2338412","11250.00","In Progress","Time & Material","2022-08-29T00:00:00","2022-10-31T00:00:00","56388517","0"
+"NLC005492","db3f1e8c-8a28-474a-a9ad-6b95d0d8ffb2","Sprints 19 - 20","","119","Mayuri","25032.00","In Progress","Time & Material","2022-08-30T00:00:00","2022-09-30T00:00:00","56406244","0"
+"DOR005483","066d3361-bda5-43b5-a297-8f507ec9a8d8","Report Engine Builder Project (Design)","","120","4500018924","120800.00","In Progress","Fixed Price ","2022-09-02T00:00:00","2022-11-30T00:00:00","56454649","0"
+"DoE005411","02ff654a-d348-43eb-9240-91bc0f2d992f","AUCHD Support and Maintenance 22/23","","121","C10834","24080.00","In Progress","Time & Material","2022-09-01T00:00:00","2023-08-31T00:00:00","56469916","0"
+"SAPol005525","c7296f48-6781-4070-88d4-1fa8645f490f","Peter Carr - GIS Support Services","","122","","5600.00","In Progress","Contractor Placement","2022-09-15T00:00:00","2022-10-21T00:00:00","56493881","0"
+"AU005482","65e0e63f-5679-46b5-b39c-883caf40e0ee","Analysis of Stairway Upgrade","","123","","21600.00","In Progress","Time & Material","2022-09-08T00:00:00","2022-11-30T00:00:00","56503683","0"
+"DCMB005528","14765f5a-09ac-4d1b-a107-81d935eacf5a","(DCMBSD-2216) RDS SQL Server Update from 2016 to 2019","","124","","9890.00","In Progress","Fixed Price ","2022-09-08T00:00:00","2022-10-31T00:00:00","56504136","0"
+"DCT005524","226d7732-ce50-441a-b0a7-a1418306f621","Infrastructure Migration - Real-time Creditor ID validation","Integration between CPIS and Finance One system to enable real time validation of Creditor ID, requires
+Technical analysis to understand and work with DoE IT to design a solution
+Application development to implement the design
+","125","","14400.00","In Progress","Time & Material","2022-09-19T00:00:00","2022-10-31T00:00:00","56518553","0"
+"DCT005515","a4ac7251-537f-489d-9b1f-2db281c9128c","Infrastructure Migration Testing (CPIS, CARDI)","The migration of CPIS and CARDI will change existing integrations with other systems, existing reports and a number of configuration changes in both systems. These changes will required validation testing","126","","25600.00","In Progress","Time & Material","2022-09-26T00:00:00","2022-10-31T00:00:00","56518765","0"
+"DOR005514","4b382121-d304-4ba2-b65c-70041344ef5a","LPX+ Training & Review for config files","","127","","5400.00","In Progress","Time & Material","2022-09-13T00:00:00","2022-11-30T00:00:00","56541575","0"
+"DOR005516","bb49db6a-9dad-48d5-8237-987244d5d3aa","LPX+ Design","","128","","15225.00","In Progress","Fixed Price ","2022-09-13T00:00:00","2022-11-30T00:00:00","56541601","0"
+"SWSA005530","f406cc97-e983-410d-8271-e94fc5d4f9fd","InfoNet Support & Maintenance Services (Baseline Application Support)","Vendor Number: A000102
+1st October 2022 - 30th September 2024","129","eProjects No: 1164","92160.00","In Progress","Fixed Price ","2022-10-01T00:00:00","2024-09-30T00:00:00","56541932","0"
+"SWSA005532","bb9bcf0c-74f7-4057-874e-352f0948d6f3","InfoNet Support & Maintenance Services (Service Desk)","Vendor Number: A000102 
+1st October 2022 - 30th September 2024","130","eProjects No: 1164","77614.54","In Progress","Fixed Price ","2022-10-01T00:00:00","2024-09-30T00:00:00","56542335","0"
+"DOR005445","a327a9d5-2ad5-481e-9a38-74419a0f17e1","(GDMPSD-979) AWS Redshift UAT Installation and Configuration in UAT","","131","4500018911","19543.00","In Progress","Fixed Price ","2022-09-12T00:00:00","2022-10-31T00:00:00","56542578","0"
+"BELL005533","ec7c45a4-42b7-4314-9a74-b8b96b90a34e","Members Portal","","132","","179815.00","In Progress","Fixed Price ","2022-09-19T00:00:00","2022-12-30T00:00:00","56594988","0"
+"CER005539","198f4245-9893-4e86-9fbb-3ac16404fca6","PI 16","","133","TBA","406844.00","In Progress","Time & Material","2022-10-01T00:00:00","2022-12-31T00:00:00","56656379","0"
+"LEA005541","74d35653-cf33-4da0-9863-4875e85f7424","LEXiCON 2 Factor Authentication","","134","","12160.00","In Progress","Fixed Price ","2022-09-28T00:00:00","2022-11-30T00:00:00","56670955","0"
