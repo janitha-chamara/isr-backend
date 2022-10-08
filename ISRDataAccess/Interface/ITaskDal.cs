@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 
 namespace ISRDataAccess.Interface
 {
-   public interface ITaskDal
+    public interface ITaskDal
     {
         IList<TaskModel> GetTaskByJobId(int id);
         int AddTask(TaskModel task);
         void AddTasks(List<TaskModel> tasks);
+        int UpdateTask(TaskModel task);
     }
 }

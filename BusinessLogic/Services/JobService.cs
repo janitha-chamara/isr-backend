@@ -26,7 +26,23 @@ namespace BusinessLogic.Services
 
         public ServiceResponse<int> AddJob(Job job)
         {
+            if (job.contact ==null)
+            {
+                Contact contact = new Contact();
+                job.contact = contact;
+            }
 
+            if (job.manager == null)
+            {
+                Manager manager = new Manager();
+                job.manager  = manager;
+            }
+
+            decimal actualHours = 1;
+            decimal quotedHours = 1;
+            decimal ForeCastHours = 1;
+
+           
             var jobmode = new JobModel()
             {
                 UUID = job.UUID,
@@ -37,14 +53,33 @@ namespace BusinessLogic.Services
                 ProjectManger = job.manager.Name,
                 SDM = job.contact.Name,
                 ClientName = job.client.Name,
-                QuotedHours = 0,
-                ActualHours = 0,
-                CurrentQuotedHoursUsed = 0,
+                QuotedHours = actualHours,
+                ActualHours = quotedHours,
+                CurrentQuotedHoursUsed = actualHours/quotedHours,
                 CurrentthroughProject = 0,
-                EstToComplHours = 0,
+                EstToComplHours = ForeCastHours,
                 ForecastQuotedHours = 0,
                 ProjectStatus = job.State,
-                TotalForeCastHours = 0,
+                TotalForeCastHours = actualHours+ForeCastHours,
+            };
+
+            int jobid = _jobDal.AddJobs(jobmode);
+            return new ServiceResponse<int>(jobid);
+        }
+
+        public ServiceResponse<int>UpdateHours(decimal actualHours, decimal quotedHours, string UUID)
+        {
+            var jobmode = new JobModel()
+            {
+                UUID = UUID,
+                QuotedHours = quotedHours,
+                ActualHours = actualHours,
+                CurrentQuotedHoursUsed=actualHours/quotedHours,
+                CurrentthroughProject=0,
+                EstToComplHours=0,
+                ForecastQuotedHours=0,
+                TotalForeCastHours=actualHours,
+                
             };
 
             int jobid = _jobDal.AddJobs(jobmode);

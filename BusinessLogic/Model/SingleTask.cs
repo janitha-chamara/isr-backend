@@ -2,7 +2,7 @@
 
 namespace BusinessLogic
 {
-    public class Task
+       public sealed class SingleTask
     {
         [JsonProperty(PropertyName = "ID")]
         public string Id { get; set; }

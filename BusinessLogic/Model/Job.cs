@@ -11,12 +11,12 @@ namespace BusinessLogic
         public string UUID { get; set; }
 
         [JsonProperty(PropertyName = "Name")]
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         //[JsonProperty(PropertyName = "Description")]
         //public string Description { get; set; }
 
-        public Client client { get; set; }
+        public Client? client { get; set; }
 
         //[JsonProperty(PropertyName = "ClientOrderNumber")]
         //public string ClientOrderNumber { get; set; }
@@ -37,16 +37,16 @@ namespace BusinessLogic
         public DateTime DueDate { get; set; }
 
         [JsonProperty(PropertyName = "Contact")]
-        public Contact contact { get; set; }
+        public Contact? contact { get; set; }
 
         //[JsonProperty(PropertyName = "InternalID")]
         //public string InternalID { get; set; }
 
         [JsonProperty(PropertyName = "Manager")]
-        public Manager manager { get; set; }
+        public Manager? manager { get; set; }
 
         [JsonProperty(PropertyName = "Partner")]
-        public Partner partner { get; set; }
+        public Partner? partner { get; set; }
 
         //[JsonProperty(PropertyName = "Assigned")]
         //public Assigned Assigned { get; set; }

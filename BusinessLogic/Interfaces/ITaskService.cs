@@ -5,7 +5,8 @@ namespace BusinessLogic.Interfaces
 {
     public interface ITaskService
     {
-        ServiceResponse<int> AddTask(TaskModel taskModel);
+        ServiceResponse<int> AddTask(TaskModel task);
         ServiceResponse<IList<TaskModel>> GetTaskByJobId(int id);
+        ServiceResponse<int> UpdateTask(TaskModel taskModel);
     }
 }

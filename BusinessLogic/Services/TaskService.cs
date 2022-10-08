@@ -2,12 +2,6 @@
 using BusinessLogic.Models;
 using ISRDataAccess.Interface;
 using ISRDataAccess.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace BusinessLogic.Services
 {
     public class TaskService : ITaskService
@@ -17,9 +11,10 @@ namespace BusinessLogic.Services
         {
             _taskDal = taskDal;
         }
-        public ServiceResponse<int> AddTask(TaskModel taskModel)
+        public ServiceResponse<int> AddTask(TaskModel task)
         {
-            int taskId = _taskDal.AddTask(taskModel);
+            
+            int taskId = _taskDal.AddTask(task);
             return new ServiceResponse<int>(taskId);
         }
         public ServiceResponse<IList<TaskModel>> GetTaskByJobId(int jobid)
@@ -27,11 +22,11 @@ namespace BusinessLogic.Services
             return new ServiceResponse<IList<TaskModel>>(_taskDal.GetTaskByJobId(jobid));
         }
 
-        //public ServiceResponse<IList<TaskModel>>UpdateTask(TaskModel taskModel)
-        //{
-        //    return new ServiceResponse<IList<TaskModel>>(_taskDal.Update)
-        //}
-        
+        public ServiceResponse<int> UpdateTask(TaskModel taskModel)
+        {
+            return new ServiceResponse<int>(_taskDal.UpdateTask(taskModel));
+        }
+
 
     }
 }

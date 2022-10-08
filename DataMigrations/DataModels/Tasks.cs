@@ -14,13 +14,13 @@ namespace DataMigrations.DataModels
 
         [ForeignKey("job")]
         public int JobId { get; set; }
-        public string TaskName { get; set; }
-        public DateTime LastUpdate { get; set; }
-        public decimal QuotedHours { get; set; }
-        public decimal ActualHours { get; set; }
-        public decimal PercentUsed { get; set; }
-        public decimal EstToComplHours { get; set; }
-        public decimal TotalForecastHours { get; set; }
+        public string? TaskName { get; set; }
+        public DateTime? LastUpdate { get; set; }
+        public decimal? QuotedHours { get; set; }
+        public decimal? ActualHours { get; set; }
+        public decimal? PercentUsed { get; set; }
+        public decimal? EstToComplHours { get; set; }
+        public decimal? TotalForecastHours { get; set; }
         public Job job { get; set; }
 
     }

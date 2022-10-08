@@ -31,43 +31,53 @@ namespace DataMigrations.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<decimal>("ActualHours")
+                    b.Property<decimal?>("ActualHours")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("ClientName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("DueDate")
+                    b.Property<decimal?>("CurrentQuotedHoursUsed")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal?>("CurrentthroughProject")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime?>("DueDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<decimal?>("EstToComplHours")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal?>("ForecastQuotedHours")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<string>("JobName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("JobNo")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ProjectManger")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("QuotedHours")
+                    b.Property<decimal?>("QuotedHours")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("SDM")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("StartDate")
+                    b.Property<DateTime?>("StartDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<decimal?>("TotalForeCastHours")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("UUID")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("WFMLastUpdate")
+                    b.Property<DateTime?>("WFMLastUpdate")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
@@ -84,29 +94,28 @@ namespace DataMigrations.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<decimal>("ActualHours")
+                    b.Property<decimal?>("ActualHours")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<decimal>("EstToComplHours")
+                    b.Property<decimal?>("EstToComplHours")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("JobId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("LastUpdate")
+                    b.Property<DateTime?>("LastUpdate")
                         .HasColumnType("datetime2");
 
-                    b.Property<decimal>("PercentUsed")
+                    b.Property<decimal?>("PercentUsed")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<decimal>("QuotedHours")
+                    b.Property<decimal?>("QuotedHours")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("TaskName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("TotalForecastHours")
+                    b.Property<decimal?>("TotalForecastHours")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("UUID")

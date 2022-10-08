@@ -12,7 +12,7 @@ namespace BusinessLogic
         public string UUID { get; set; }
 
         [JsonProperty(PropertyName = "Name")]
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         [JsonProperty(PropertyName = "Type")]
         public string? Type { get; set; }

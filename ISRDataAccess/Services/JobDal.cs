@@ -26,21 +26,29 @@ namespace ISRDataAccess.Services
         public int AddJobs(JobModel job)
         {
             Job newjob = job.ToJob();
-            var jobexists = _db.Jobs.Any(d => d.UUID == newjob.UUID);
-            if (jobexists != true)
+            Job jobexists = _db.Jobs.Where(x => x.UUID == newjob.UUID).FirstOrDefault();
+            Job extjob = new Job();
+            extjob = jobexists;
+            if (jobexists != null)
             {
-                _db.Jobs.Add(newjob);
+                jobexists.ActualHours = newjob.ActualHours;
+                jobexists.QuotedHours = newjob.QuotedHours;
+                _db.Entry(extjob).CurrentValues.SetValues(jobexists);
                 _db.SaveChanges();
+                return jobexists.Id;
             }
             else
             {
-                _db.Jobs.Update(newjob);
+                _db.Jobs.Add(newjob);
                 _db.SaveChanges();
+                return newjob.Id;
             }
 
 
-            return newjob.Id;
         }
+
+
+
 
     }
 }

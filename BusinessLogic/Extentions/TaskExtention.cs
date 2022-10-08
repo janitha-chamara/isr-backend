@@ -1,47 +1,40 @@
-﻿using DataMigrations.DataModels;
+﻿using BusinessLogic;
+using DataMigrations.DataModels;
 using ISRDataAccess.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ISRDataAccess.Extentions
 {
     public static class TaskExtention
     {
-        public static TaskModel ToTaskModel(this Tasks task)
+        public static TaskModel ToTaskModel(this SingleTask task)
         {
+            var qh = Convert.ToDecimal(task.EstimatedMinutes) * 60;
+            var ah = Convert.ToDecimal(task.ActualMinutes) * 60;
+
             var taskModel = new TaskModel()
             {
-                TaskId = task.Id,
-                JobId = task.JobId,
+                 
+               
                 UUID = task.UUID,
-                TaskName = task.TaskName,
-                LastUpdate = task.LastUpdate,
-                QuotedHours = task.QuotedHours,
-                ActualHours = task.ActualHours,
-                PercentUsed = task.PercentUsed,
-                EstToComplHours = task.EstToComplHours,
+                TaskName = task.Name,
+                LastUpdate = DateTime.Now,
+                QuotedHours =qh,
+                ActualHours = ah,
+                PercentUsed =ah/qh ,
+                EstToComplHours = 0,
+                ForecastHours = qh+ah,
                 
             };
 
             return taskModel;
         }
 
-        public static Tasks ToTasks(this TaskModel task)
+        public static SingleTask ToTasks(this TaskModel task)
         {
-            var tasks = new Tasks()
+            var tasks = new SingleTask()
             {
-                Id = task.TaskId,
-                JobId = task.JobId,
-                UUID = task.UUID,
-                TaskName = task.TaskName,
-                LastUpdate = task.LastUpdate,
-                QuotedHours = task.QuotedHours,
-                ActualHours = task.ActualHours,
-                PercentUsed = task.PercentUsed,
-                EstToComplHours = task.EstToComplHours,
+               
                
             };
 

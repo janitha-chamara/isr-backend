@@ -4,7 +4,7 @@ namespace BusinessLogic
     public class Tasks
     {
         [JsonProperty(PropertyName = "Task")]
-        public Task[] Task { get; set; }
+        public object Task { get; set; }
 
     }
 }
