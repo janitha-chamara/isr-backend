@@ -49,7 +49,7 @@ namespace BusinessLogic.Services
                 JobId = job.Id,
                 JobName = job.Name,
                 StartDate = job.StartDate,
-                EndDate = job.DueDate,
+                DueDate = job.DueDate,
                 ProjectManger = job.manager.Name,
                 SDM = job.contact.Name,
                 ClientName = job.client.Name,

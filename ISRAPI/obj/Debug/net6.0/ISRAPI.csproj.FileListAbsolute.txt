@@ -234,9 +234,9 @@ C:\Users\jsoft\jsoft\ISR Web\ISRAPI\obj\Debug\net6.0\refint\ISRAPI.dll
 C:\Users\jsoft\jsoft\ISR Web\ISRAPI\obj\Debug\net6.0\ISRAPI.pdb
 C:\Users\jsoft\jsoft\ISR Web\ISRAPI\obj\Debug\net6.0\ISRAPI.genruntimeconfig.cache
 C:\Users\jsoft\jsoft\ISR Web\ISRAPI\obj\Debug\net6.0\ref\ISRAPI.dll
+C:\Development\ISR WEB\ISRAPI\obj\Debug\net6.0\ISRAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\jsoft\jsoft\ISR Web\ISRAPI\obj\Debug\net6.0\staticwebassets\msbuild.ISRAPI.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\jsoft\jsoft\ISR Web\ISRAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.ISRAPI.props
 C:\Users\jsoft\jsoft\ISR Web\ISRAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ISRAPI.props
 C:\Users\jsoft\jsoft\ISR Web\ISRAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ISRAPI.props
 C:\Users\jsoft\jsoft\ISR Web\ISRAPI\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Development\ISR WEB\ISRAPI\obj\Debug\net6.0\ISRAPI.MvcApplicationPartsAssemblyInfo.cs

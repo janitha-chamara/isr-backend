@@ -1,6 +1,4 @@
-﻿
-
-using ISRDataAccess.Models;
+﻿using ISRDataAccess.Models;
 
 namespace ISRAPI
 {
@@ -15,14 +13,14 @@ namespace ISRAPI
         public string? ProjectStatus { get; set; }
         public decimal? QuotedHours { get; set; }
         public decimal? ActualHours { get; set; }
+        public DateTime? WFMLastUpdate { get; set; }
         public decimal? CurrentQuotedHoursUsed { get; set; }
         public decimal? EstToComplHours { get; set; }
         public decimal? TotalForeCastHours { get; set; }
         public decimal? CurrentthroughProject { get; set; }
         public decimal? ForecastQuotedHours { get; set; }
         public DateTime? StartDate { get; set; }
-        public DateTime? EndDate { get; set; }
-
+        public DateTime? DueDate { get; set; }
     }
 
     public static class JobDtoMapExtensions
@@ -41,10 +39,11 @@ namespace ISRAPI
                 ActualHours = jobDto.ActualHours,
                 CurrentQuotedHoursUsed = jobDto.CurrentQuotedHoursUsed,
                 EstToComplHours = jobDto.EstToComplHours,
+                WFMLastUpdate = jobDto.WFMLastUpdate,
                 TotalForeCastHours = jobDto.TotalForeCastHours,
                 CurrentthroughProject = jobDto.CurrentthroughProject,
                 ForecastQuotedHours = jobDto.ForecastQuotedHours,
-                EndDate = jobDto.EndDate,
+                DueDate = jobDto.DueDate,
                 StartDate = jobDto.StartDate,
             };
             return dst;
@@ -62,15 +61,16 @@ namespace ISRAPI
                 ProjectStatus = jobModel.ProjectStatus,
                 QuotedHours = jobModel.QuotedHours,
                 ActualHours = jobModel.ActualHours,
+                WFMLastUpdate = jobModel.WFMLastUpdate,
                 CurrentQuotedHoursUsed = jobModel.CurrentQuotedHoursUsed,
                 EstToComplHours = jobModel.EstToComplHours,
                 TotalForeCastHours = jobModel.TotalForeCastHours,
                 CurrentthroughProject = jobModel.CurrentthroughProject,
                 ForecastQuotedHours = jobModel.ForecastQuotedHours,
-
+                DueDate = jobModel.DueDate,
+                StartDate = jobModel.StartDate,
             };
             return job;
         }
-
     }
 }

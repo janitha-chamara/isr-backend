@@ -25,6 +25,8 @@ namespace DataMigrations.DataModels
         public string? SDM { get; set; }
         public decimal? QuotedHours { get; set; }
         public decimal? ActualHours { get; set; }
+
+        //added project status
         public string? ProjectStatus { get; set; }
         public decimal? CurrentQuotedHoursUsed { get; set; }
         public decimal? EstToComplHours { get; set; }

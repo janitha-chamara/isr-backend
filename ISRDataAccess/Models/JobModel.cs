@@ -13,7 +13,7 @@ public class JobModel
     public decimal? QuotedHours { get; set; }
     public decimal? ActualHours { get; set; }
     public DateTime? StartDate { get; set; }
-    public DateTime? EndDate { get; set; }
+    public DateTime? DueDate { get; set; }
     public DateTime? WFMLastUpdate { get; set; }
     public decimal? CurrentQuotedHoursUsed { get; set; }
     public decimal? EstToComplHours { get; set; }
