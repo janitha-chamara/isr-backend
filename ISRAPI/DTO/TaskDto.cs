@@ -14,12 +14,8 @@ namespace ISRDataAccess.Models
         public decimal? ActualHours { get; set; }
         public decimal? PercentUsed { get; set; }
         public decimal? EstToComplHours { get; set; }
-        public decimal? PercentComplete { get; set; }
-        public decimal? DifferencePercent { get; set; }
-        public decimal? ForecastHours { get; set; }
-        public decimal? VarianceHours { get; set; }
-        public decimal? VariancePercent { get; set; }
-        public decimal? Weighting { get; set; }
+        public decimal? TotalForecastHours { get; set; }
+
     }
     public static class TaskDtoMapExtensions
     {
@@ -33,12 +29,10 @@ namespace ISRDataAccess.Models
                 LastUpdate = taskdto.LastUpdate,
                 QuotedHours = taskdto.QuotedHours,
                 ActualHours = taskdto.ActualHours,
-                PercentUsed = taskdto.PercentUsed,
-                DifferencePercent = taskdto.DifferencePercent,
-                ForecastHours = taskdto.ForecastHours,
-                VarianceHours = taskdto.VarianceHours,
-                VariancePercent = taskdto.VariancePercent,
+                CurrentQuoteHoursUsed = taskdto.PercentUsed,
+                TotalForecastHours = taskdto.TotalForecastHours,
                 TaskId = taskdto.TaskId,
+                EstToComplHours = taskdto.EstToComplHours,
             };
             return dst;
         }
@@ -53,11 +47,9 @@ namespace ISRDataAccess.Models
                 LastUpdate = taskModel.LastUpdate,
                 QuotedHours = taskModel.QuotedHours,
                 ActualHours = taskModel.ActualHours,
-                PercentUsed = taskModel.PercentUsed,
-                DifferencePercent = taskModel.DifferencePercent,
-                ForecastHours = taskModel.ForecastHours,
-                VarianceHours = taskModel.VarianceHours,
-                VariancePercent = taskModel.VariancePercent,
+                PercentUsed = taskModel.CurrentQuoteHoursUsed,
+                TotalForecastHours = taskModel.TotalForecastHours,
+                EstToComplHours = taskModel.EstToComplHours,
                 TaskId = taskModel.TaskId,
             };
             return job;
@@ -69,35 +61,52 @@ namespace ISRDataAccess.Models
 
             if (task.EstimatedMinutes == "0")
             {
-                task.EstimatedMinutes = "1";
-                qh = Convert.ToDecimal(task.EstimatedMinutes) / 60;
+                task.EstimatedMinutes = task.ActualMinutes;
+                qh = Convert.ToDecimal(task.EstimatedMinutes)/60;
             }
 
             if (task.ActualMinutes == "0")
             {
-                task.ActualMinutes = "1";
-                ah = Convert.ToDecimal(task.ActualMinutes) / 60;
+                task.ActualMinutes = task.EstimatedMinutes;
+                ah = Convert.ToDecimal(task.ActualMinutes)/60;
             }
-            qh = Convert.ToDecimal(task.EstimatedMinutes) / 60;
-            ah = Convert.ToDecimal(task.ActualMinutes) / 60;
-
-            var taskModel = new TaskModel()
+            qh = Convert.ToDecimal(task.EstimatedMinutes)/60;
+            ah = Convert.ToDecimal(task.ActualMinutes)/60;
+            var taskModel = new TaskModel();
+            if (ah== 0 && qh==0)
             {
-                UUID = task.UUID,
-                TaskName = task.Name,
-                LastUpdate = DateTime.Now,
-                QuotedHours = qh,
-                ActualHours = ah,
-                PercentUsed = ah / qh,
-                EstToComplHours = 0,
-                ForecastHours = qh + ah,
-               // VarianceHours = 0,
-               // VariancePercent = 0,
-               // DifferencePercent = 0,
-                JobId = jobid,
-              //  PercentComplete = 0,
+                 taskModel = new TaskModel()
+                {
+                    UUID = task.UUID,
+                    TaskName = task.Name,
+                    LastUpdate = DateTime.Now,
+                    QuotedHours = qh,
+                    ActualHours = ah,
+                    CurrentQuoteHoursUsed = null,
+                    EstToComplHours = 0,
+                    TotalForecastHours = ah,
+                    JobId = jobid,
 
-            };
+                };
+            }
+            else
+            {
+                 taskModel = new TaskModel()
+                {
+                    UUID = task.UUID,
+                    TaskName = task.Name,
+                    LastUpdate = DateTime.Now,
+                    QuotedHours = qh,
+                    ActualHours = ah,
+                    CurrentQuoteHoursUsed = (ah / qh) * 100,
+                    EstToComplHours = 0,
+                    TotalForecastHours = ah,
+                    JobId = jobid,
+
+                };
+
+            }
+
 
             return taskModel;
         }

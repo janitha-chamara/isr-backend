@@ -53,5 +53,7 @@ namespace BusinessLogic
 
         [JsonProperty(PropertyName = "Tasks")]
         public Tasks Tasks { get; set; }
+
+      
     }
 }

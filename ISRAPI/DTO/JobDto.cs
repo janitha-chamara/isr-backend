@@ -46,11 +46,7 @@ namespace ISRAPI
                 ForecastQuotedHours = jobDto.ForecastQuotedHours,
                 EndDate = jobDto.EndDate,
                 StartDate = jobDto.StartDate,
-
-
             };
-
-
             return dst;
         }
 
@@ -73,9 +69,6 @@ namespace ISRAPI
                 ForecastQuotedHours = jobModel.ForecastQuotedHours,
 
             };
-
-
-
             return job;
         }
 

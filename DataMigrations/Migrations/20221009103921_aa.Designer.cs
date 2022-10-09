@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataMigrations.Migrations
 {
     [DbContext(typeof(ISRContext))]
-    [Migration("20221007052919_asaaaaa")]
-    partial class asaaaaa
+    [Migration("20221009103921_aa")]
+    partial class aa
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -63,6 +63,9 @@ namespace DataMigrations.Migrations
                     b.Property<string>("ProjectManger")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ProjectStatus")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<decimal?>("QuotedHours")
                         .HasColumnType("decimal(18,2)");
 
@@ -99,6 +102,9 @@ namespace DataMigrations.Migrations
                     b.Property<decimal?>("ActualHours")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<decimal?>("CurrentofQuotedHoursUsed")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<decimal?>("EstToComplHours")
                         .HasColumnType("decimal(18,2)");
 
@@ -107,9 +113,6 @@ namespace DataMigrations.Migrations
 
                     b.Property<DateTime?>("LastUpdate")
                         .HasColumnType("datetime2");
-
-                    b.Property<decimal?>("PercentUsed")
-                        .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal?>("QuotedHours")
                         .HasColumnType("decimal(18,2)");

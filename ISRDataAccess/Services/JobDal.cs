@@ -33,6 +33,8 @@ namespace ISRDataAccess.Services
             {
                 jobexists.ActualHours = newjob.ActualHours;
                 jobexists.QuotedHours = newjob.QuotedHours;
+                jobexists.CurrentQuotedHoursUsed = newjob.CurrentQuotedHoursUsed;
+                jobexists.TotalForeCastHours = newjob.TotalForeCastHours;
                 _db.Entry(extjob).CurrentValues.SetValues(jobexists);
                 _db.SaveChanges();
                 return jobexists.Id;
@@ -47,7 +49,26 @@ namespace ISRDataAccess.Services
 
         }
 
+        public int UpdateJobestToComplite(decimal? forecastquoteHours, decimal? estimatetocomplite, decimal? totalforecostHours, decimal? CurrentprecentTroughProject, int jobid)
+        {
+            Job jobexists = _db.Jobs.Where(x => x.Id == jobid).FirstOrDefault();
+            Job extjob = new Job();
+            extjob = jobexists;
+            if (jobexists != null)
+            {
+                jobexists.EstToComplHours = estimatetocomplite;
+                jobexists.TotalForeCastHours= totalforecostHours;
+                jobexists.CurrentthroughProject = CurrentprecentTroughProject;
+                jobexists.CurrentQuotedHoursUsed= forecastquoteHours;
+                jobexists.ForecastQuotedHours = forecastquoteHours;
+                _db.Entry(extjob).CurrentValues.SetValues(jobexists);
+                _db.SaveChanges();
 
+            }
+            return extjob.Id;
+
+
+        }
 
 
     }

@@ -61,6 +61,9 @@ namespace DataMigrations.Migrations
                     b.Property<string>("ProjectManger")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ProjectStatus")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<decimal?>("QuotedHours")
                         .HasColumnType("decimal(18,2)");
 
@@ -97,6 +100,9 @@ namespace DataMigrations.Migrations
                     b.Property<decimal?>("ActualHours")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<decimal?>("CurrentofQuotedHoursUsed")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<decimal?>("EstToComplHours")
                         .HasColumnType("decimal(18,2)");
 
@@ -105,9 +111,6 @@ namespace DataMigrations.Migrations
 
                     b.Property<DateTime?>("LastUpdate")
                         .HasColumnType("datetime2");
-
-                    b.Property<decimal?>("PercentUsed")
-                        .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal?>("QuotedHours")
                         .HasColumnType("decimal(18,2)");
