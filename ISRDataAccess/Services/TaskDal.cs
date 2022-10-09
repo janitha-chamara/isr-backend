@@ -12,8 +12,8 @@ namespace ISRDataAccess.Services
         public IList<TaskModel> GetTaskByJobId(int id)
         {
             var result = _db.Tasks;
-            var results = result.Select(x => x.JobId == id);
-            return result.Select(x => x.ToTaskModel()).ToList();
+            var results = result.Where(x => x.JobId == id);
+            return results.Select(x => x.ToTaskModel()).ToList();
         }
 
         public int AddTask(TaskModel task)
@@ -42,15 +42,12 @@ namespace ISRDataAccess.Services
         }
         public int UpdateTask(TaskModel task)
         {
-            Tasks newTask =task.ToTasks();
+            Tasks newTask = task.ToTasks();
             Tasks Taskexists = _db.Tasks.Where(x => x.UUID == newTask.UUID).FirstOrDefault();
-            Tasks ExtTasks = new Tasks();
-            ExtTasks = Taskexists;
+
             if (Taskexists != null)
             {
-                Taskexists.EstToComplHours = newTask.EstToComplHours;
-                Taskexists.TotalForecastHours = newTask.TotalForecastHours;
-                _db.Entry(ExtTasks).CurrentValues.SetValues(Taskexists);
+                _db.Entry(Taskexists).CurrentValues.SetValues(newTask);
                 _db.SaveChanges();
                 return Taskexists.Id;
             }
@@ -64,5 +61,29 @@ namespace ISRDataAccess.Services
 
         }
 
+        public int UpdateTaskFromWFM(TaskModel task)
+        {
+            Tasks newTask = task.ToTasks();
+            Tasks Taskexists = _db.Tasks.Where(x => x.UUID == newTask.UUID).FirstOrDefault();
+            Tasks ExtTasks = new Tasks();
+            ExtTasks = Taskexists;
+            if (Taskexists != null)
+            {
+                //Taskexists.EstToComplHours = newTask.EstToComplHours;
+                Taskexists.TotalForecastHours = newTask.TotalForecastHours;
+                Taskexists.EstToComplHours = ExtTasks.EstToComplHours;
+                _db.Entry(ExtTasks).CurrentValues.SetValues(Taskexists);
+                _db.SaveChanges();
+                return Taskexists.Id;
+            }
+            else
+            {
+                _db.Tasks.Add(newTask);
+                _db.SaveChanges();
+                return newTask.Id;
+            }
+
+
+        }
     }
 }

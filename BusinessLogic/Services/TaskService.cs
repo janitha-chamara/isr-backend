@@ -27,6 +27,10 @@ namespace BusinessLogic.Services
             return new ServiceResponse<int>(_taskDal.UpdateTask(taskModel));
         }
 
+        public ServiceResponse<int> UpdateTaskFromWFM(TaskModel taskModel)
+        {
+            return new ServiceResponse<int>(_taskDal.UpdateTaskFromWFM(taskModel));
+        }
 
     }
 }

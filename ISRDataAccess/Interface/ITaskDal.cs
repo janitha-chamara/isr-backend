@@ -13,5 +13,6 @@ namespace ISRDataAccess.Interface
         int AddTask(TaskModel task);
         void AddTasks(List<TaskModel> tasks);
         int UpdateTask(TaskModel task);
+        int UpdateTaskFromWFM(TaskModel task);
     }
 }

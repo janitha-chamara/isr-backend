@@ -13,14 +13,12 @@
                 JobName = job.JobName,
                 StartDate = job.StartDate,
                 EndDate = job.DueDate,
-               //lientName = job.ClientId,
+                ClientName = job.ClientName,
                 UUID = job.UUID,
-               //rojectManger = job.ProjectMangerID,
-               //DM = job.AccountManagerID,
+                ProjectManger = job.ProjectManger,
+                SDM = job.SDM,
                 QuotedHours = job.QuotedHours,
                 ActualHours = job.ActualHours,
-
-
             };
 
             return dst;
@@ -30,23 +28,21 @@
         {
             var dst = new Job
             {
-                
                 UUID = job.UUID,
-                JobNo=job.JobId,
-                JobName=job.JobName,
-                StartDate=job.StartDate,
-                DueDate=job.EndDate,
-                ProjectManger=job.ProjectManger,
-                WFMLastUpdate= DateTime.Now,
-                SDM=job.SDM,
-                ClientName=job.ClientName,
-                QuotedHours=job.QuotedHours,
-                ActualHours=job.ActualHours,
-
+                JobNo = job.JobId,
+                JobName = job.JobName,
+                StartDate = job.StartDate,
+                DueDate = job.EndDate,
+                ProjectManger = job.ProjectManger,
+                WFMLastUpdate = DateTime.Now,
+                SDM = job.SDM,
+                ClientName = job.ClientName,
+                QuotedHours = job.QuotedHours,
+                ActualHours = job.ActualHours,
+                CurrentQuotedHoursUsed = job.CurrentQuotedHoursUsed,
             };
 
             return dst;
         }
-
     }
 }

@@ -9,8 +9,8 @@ namespace ISRDataAccess.Extentions
     {
         public static TaskModel ToTaskModel(this SingleTask task)
         {
-            var qh = Convert.ToDecimal(task.EstimatedMinutes) * 60;
-            var ah = Convert.ToDecimal(task.ActualMinutes) * 60;
+            var qh = Convert.ToDecimal(task.EstimatedMinutes) ;
+            var ah = Convert.ToDecimal(task.ActualMinutes);
 
             var taskModel = new TaskModel()
             {
@@ -21,9 +21,9 @@ namespace ISRDataAccess.Extentions
                 LastUpdate = DateTime.Now,
                 QuotedHours =qh,
                 ActualHours = ah,
-                PercentUsed =ah/qh ,
+                CurrentQuoteHoursUsed =ah/qh ,
                 EstToComplHours = 0,
-                ForecastHours = qh+ah,
+                TotalForecastHours = qh+ah,
                 
             };
 

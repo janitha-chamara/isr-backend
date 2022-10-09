@@ -5,10 +5,14 @@
       "Newtonsoft.Json/13.0.2-beta2": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Newtonsoft.Json.dll": {}
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {}
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
@@ -51,20 +55,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pathu\\.nuget\\packages\\": {}
+    "C:\\Users\\jsoft\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\ISR WEB\\Tst\\Tst.csproj",
+      "projectUniqueName": "C:\\Users\\jsoft\\jsoft\\ISR Web\\Tst\\Tst.csproj",
       "projectName": "Tst",
-      "projectPath": "C:\\Development\\ISR WEB\\Tst\\Tst.csproj",
-      "packagesPath": "C:\\Users\\pathu\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\ISR WEB\\Tst\\obj\\",
+      "projectPath": "C:\\Users\\jsoft\\jsoft\\ISR Web\\Tst\\Tst.csproj",
+      "packagesPath": "C:\\Users\\jsoft\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jsoft\\jsoft\\ISR Web\\Tst\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Development\\ISR WEB\\NuGet.Config",
-        "C:\\Users\\pathu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jsoft\\jsoft\\ISR Web\\NuGet.Config",
+        "C:\\Users\\jsoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -100,16 +104,35 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.9, 6.0.9]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.9, 6.0.9]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.9, 6.0.9]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.9, 6.0.9]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.1.22431.12\\RuntimeIdentifierGraph.json"
       }
     }
   }

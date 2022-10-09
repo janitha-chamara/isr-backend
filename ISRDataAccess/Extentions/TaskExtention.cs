@@ -21,9 +21,9 @@ namespace ISRDataAccess.Extentions
                 LastUpdate = task.LastUpdate,
                 QuotedHours = task.QuotedHours,
                 ActualHours = task.ActualHours,
-                PercentUsed = task.PercentUsed,
+                CurrentQuoteHoursUsed =task.CurrentofQuotedHoursUsed,
                 EstToComplHours = task.EstToComplHours,
-                
+                TotalForecastHours = task.TotalForecastHours,
             };
 
             return taskModel;
@@ -40,9 +40,9 @@ namespace ISRDataAccess.Extentions
                 LastUpdate = task.LastUpdate,
                 QuotedHours = task.QuotedHours,
                 ActualHours = task.ActualHours,
-                PercentUsed = task.PercentUsed,
+                CurrentofQuotedHoursUsed = task.CurrentQuoteHoursUsed,
                 EstToComplHours = task.EstToComplHours,
-               
+                TotalForecastHours = task.TotalForecastHours,
             };
 
             return tasks;
