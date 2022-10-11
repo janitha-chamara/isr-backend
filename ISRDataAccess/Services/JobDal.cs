@@ -33,12 +33,18 @@ namespace ISRDataAccess.Services
             {
                 jobexists.ActualHours = newjob.ActualHours;
                 jobexists.QuotedHours = newjob.QuotedHours;
+                jobexists.SDM = newjob.SDM;
+                jobexists.ClientName = newjob.ClientName;
+                jobexists.ProjectManger = newjob.ProjectManger;
                 jobexists.CurrentQuotedHoursUsed = newjob.CurrentQuotedHoursUsed;
                 jobexists.TotalForeCastHours = newjob.TotalForeCastHours;
+                jobexists.WFMLastUpdate = DateTime.Now;
+                jobexists.ProjectStatus = newjob.ProjectStatus;
                 _db.Entry(extjob).CurrentValues.SetValues(jobexists);
                 _db.SaveChanges();
                 return jobexists.Id;
             }
+
             else
             {
                 _db.Jobs.Add(newjob);

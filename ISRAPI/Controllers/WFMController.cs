@@ -60,13 +60,13 @@ namespace ISRAPI.Controllers
                 decimal QuoteHours = 0;
                 foreach (var task in tasks)
                 {
-                    actualHours += Convert.ToDecimal(task.ActualMinutes) ;
-                    QuoteHours += Convert.ToDecimal(task.EstimatedMinutes);
+                    actualHours += Convert.ToDecimal(task.ActualMinutes)/60 ;
+                    QuoteHours += Convert.ToDecimal(task.EstimatedMinutes)/60;
 
                     TaskModel taskmodel = task.ToTaskModelFromWFM(jobid.Response);
                     var taskid = _taskService.UpdateTaskFromWFM(taskmodel);
                 }
-                var jobnewid = _jobService.UpdateHours(actualHours, QuoteHours, item.UUID);
+                var jobnewid = _jobService.UpdateHours(actualHours, QuoteHours, item);
 
             }
         }

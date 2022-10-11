@@ -55,44 +55,71 @@ namespace BusinessLogic.Services
                 ClientName = job.client.Name,
                 QuotedHours = actualHours / 60,
                 ActualHours = quotedHours / 60,
-                CurrentQuotedHoursUsed = (actualHours / quotedHours) * 100,
-                CurrentthroughProject = 0,
-                EstToComplHours = ForeCastHours/60,
+                CurrentQuotedHoursUsed = null,
+                CurrentthroughProject = null,
+                EstToComplHours = null,
                 ForecastQuotedHours = 0,
                 ProjectStatus = job.State,
-                TotalForeCastHours = (actualHours + ForeCastHours) * 100,
+                TotalForeCastHours = null,
+                WFMLastUpdate = DateTime.Now,
             };
 
             int jobid = _jobDal.AddJobs(jobmode);
             return new ServiceResponse<int>(jobid);
         }
 
-        public ServiceResponse<int> UpdateHours(decimal? actualHours, decimal? quotedHours, string UUID)
+        public ServiceResponse<int> UpdateHours(decimal? actualHours, decimal? quotedHours, Job job)
         {
-            if (quotedHours == 0)
+            var jobmode = new JobModel();
+            jobmode.SDM= job.contact.Name;
+            jobmode.ClientName= job.client.Name;
+            jobmode.ProjectManger = job.manager.Name;
+            jobmode.ProjectStatus = job.State;
+            jobmode.UUID = job.UUID;
+            jobmode.WFMLastUpdate= DateTime.Now;
+            if (quotedHours == 0 && actualHours!= 0)
             {
-                quotedHours = actualHours;
+                jobmode.QuotedHours = quotedHours ;
+                jobmode.ActualHours = actualHours ;
+                jobmode.EstToComplHours = 0;
+                jobmode.TotalForeCastHours = actualHours;
+                jobmode.CurrentQuotedHoursUsed = null;
+                jobmode.CurrentthroughProject = ((actualHours / actualHours)) * 100;
+                jobmode.ForecastQuotedHours = null;
+
             }
-            if (actualHours == 0)
+            else if (actualHours == 0 && quotedHours!=0)
             {
-                actualHours = quotedHours;
+                jobmode.QuotedHours = quotedHours ;
+                jobmode.ActualHours = actualHours ;
+                jobmode.EstToComplHours = 0;
+                jobmode.TotalForeCastHours = 0;
+                jobmode.CurrentQuotedHoursUsed = 0;
+                jobmode.CurrentthroughProject = null;
+                jobmode.ForecastQuotedHours = 0;
             }
-            if (actualHours == 0 && quotedHours == 0)
+            else if (actualHours == 0 && quotedHours == 0)
             {
-                actualHours = 60;
-                quotedHours = 60;
+                jobmode.QuotedHours = null;
+                jobmode.ActualHours = null;
+                jobmode.CurrentQuotedHoursUsed = null;
+                jobmode.EstToComplHours = null;
+                jobmode.TotalForeCastHours = null;
+                jobmode.CurrentQuotedHoursUsed = null;
+                jobmode.CurrentthroughProject = null;
+                jobmode.ForecastQuotedHours = null;
             }
-            var jobmode = new JobModel()
+            else
             {
-                UUID = UUID,
-                QuotedHours = quotedHours / 60,
-                ActualHours = actualHours / 60,
-                CurrentQuotedHoursUsed = (actualHours / quotedHours) * 100,
-                CurrentthroughProject = 0,
-                EstToComplHours = 0,
-                ForecastQuotedHours = (actualHours / quotedHours) * 100,
-                TotalForeCastHours = actualHours / 60,
-            };
+                jobmode.QuotedHours = quotedHours ;
+                jobmode.ActualHours = actualHours ;
+                jobmode.EstToComplHours = 0;
+                jobmode.TotalForeCastHours = actualHours;
+                jobmode.CurrentQuotedHoursUsed = ((actualHours / quotedHours) ) * 100;
+                jobmode.CurrentthroughProject = (((((jobmode.TotalForeCastHours)) - 0) / jobmode.TotalForeCastHours) / 60) * 100;
+                jobmode.ForecastQuotedHours = ((jobmode.TotalForeCastHours / quotedHours)) * 100;
+            }
+
             int jobid = _jobDal.AddJobs(jobmode);
             return new ServiceResponse<int>(jobid);
         }

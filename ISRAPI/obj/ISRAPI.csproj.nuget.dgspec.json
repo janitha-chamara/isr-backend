@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jsoft\\jsoft\\ISR Web\\ISRAPI\\ISRAPI.csproj": {}
+    "C:\\Development\\ISR WEB\\ISRAPI\\ISRAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jsoft\\jsoft\\ISR Web\\BusinessLogic\\BusinessLogic.csproj": {
+    "C:\\Development\\ISR WEB\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jsoft\\jsoft\\ISR Web\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Development\\ISR WEB\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "C:\\Users\\jsoft\\jsoft\\ISR Web\\BusinessLogic\\BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\jsoft\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jsoft\\jsoft\\ISR Web\\BusinessLogic\\obj\\",
+        "projectPath": "C:\\Development\\ISR WEB\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\pathu\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\ISR WEB\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jsoft\\jsoft\\ISR Web\\NuGet.Config",
-          "C:\\Users\\jsoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Development\\ISR WEB\\NuGet.Config",
+          "C:\\Users\\pathu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jsoft\\jsoft\\ISR Web\\ISRDataAccess\\ISRDataAccess.csproj": {
-                "projectPath": "C:\\Users\\jsoft\\jsoft\\ISR Web\\ISRDataAccess\\ISRDataAccess.csproj"
+              "C:\\Development\\ISR WEB\\ISRDataAccess\\ISRDataAccess.csproj": {
+                "projectPath": "C:\\Development\\ISR WEB\\ISRDataAccess\\ISRDataAccess.csproj"
               }
             }
           }
@@ -79,46 +79,31 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.9, 6.0.9]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.9, 6.0.9]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.9, 6.0.9]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.1.22431.12\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jsoft\\jsoft\\ISR Web\\DataMigrations\\DataMigrations.csproj": {
+    "C:\\Development\\ISR WEB\\DataMigrations\\DataMigrations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jsoft\\jsoft\\ISR Web\\DataMigrations\\DataMigrations.csproj",
+        "projectUniqueName": "C:\\Development\\ISR WEB\\DataMigrations\\DataMigrations.csproj",
         "projectName": "DataMigrations",
-        "projectPath": "C:\\Users\\jsoft\\jsoft\\ISR Web\\DataMigrations\\DataMigrations.csproj",
-        "packagesPath": "C:\\Users\\jsoft\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jsoft\\jsoft\\ISR Web\\DataMigrations\\obj\\",
+        "projectPath": "C:\\Development\\ISR WEB\\DataMigrations\\DataMigrations.csproj",
+        "packagesPath": "C:\\Users\\pathu\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\ISR WEB\\DataMigrations\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jsoft\\jsoft\\ISR Web\\NuGet.Config",
-          "C:\\Users\\jsoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Development\\ISR WEB\\NuGet.Config",
+          "C:\\Users\\pathu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -168,46 +153,31 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.9, 6.0.9]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.9, 6.0.9]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.9, 6.0.9]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.1.22431.12\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jsoft\\jsoft\\ISR Web\\ISRAPI\\ISRAPI.csproj": {
+    "C:\\Development\\ISR WEB\\ISRAPI\\ISRAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jsoft\\jsoft\\ISR Web\\ISRAPI\\ISRAPI.csproj",
+        "projectUniqueName": "C:\\Development\\ISR WEB\\ISRAPI\\ISRAPI.csproj",
         "projectName": "ISRAPI",
-        "projectPath": "C:\\Users\\jsoft\\jsoft\\ISR Web\\ISRAPI\\ISRAPI.csproj",
-        "packagesPath": "C:\\Users\\jsoft\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jsoft\\jsoft\\ISR Web\\ISRAPI\\obj\\",
+        "projectPath": "C:\\Development\\ISR WEB\\ISRAPI\\ISRAPI.csproj",
+        "packagesPath": "C:\\Users\\pathu\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\ISR WEB\\ISRAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jsoft\\jsoft\\ISR Web\\NuGet.Config",
-          "C:\\Users\\jsoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Development\\ISR WEB\\NuGet.Config",
+          "C:\\Users\\pathu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -220,8 +190,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jsoft\\jsoft\\ISR Web\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "C:\\Users\\jsoft\\jsoft\\ISR Web\\BusinessLogic\\BusinessLogic.csproj"
+              "C:\\Development\\ISR WEB\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\Development\\ISR WEB\\BusinessLogic\\BusinessLogic.csproj"
               }
             }
           }
@@ -263,29 +233,10 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.9, 6.0.9]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.9, 6.0.9]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.9, 6.0.9]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.9, 6.0.9]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -294,22 +245,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.1.22431.12\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jsoft\\jsoft\\ISR Web\\ISRDataAccess\\ISRDataAccess.csproj": {
+    "C:\\Development\\ISR WEB\\ISRDataAccess\\ISRDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jsoft\\jsoft\\ISR Web\\ISRDataAccess\\ISRDataAccess.csproj",
+        "projectUniqueName": "C:\\Development\\ISR WEB\\ISRDataAccess\\ISRDataAccess.csproj",
         "projectName": "ISRDataAccess",
-        "projectPath": "C:\\Users\\jsoft\\jsoft\\ISR Web\\ISRDataAccess\\ISRDataAccess.csproj",
-        "packagesPath": "C:\\Users\\jsoft\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jsoft\\jsoft\\ISR Web\\ISRDataAccess\\obj\\",
+        "projectPath": "C:\\Development\\ISR WEB\\ISRDataAccess\\ISRDataAccess.csproj",
+        "packagesPath": "C:\\Users\\pathu\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\ISR WEB\\ISRDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jsoft\\jsoft\\ISR Web\\NuGet.Config",
-          "C:\\Users\\jsoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Development\\ISR WEB\\NuGet.Config",
+          "C:\\Users\\pathu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -322,8 +273,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jsoft\\jsoft\\ISR Web\\DataMigrations\\DataMigrations.csproj": {
-                "projectPath": "C:\\Users\\jsoft\\jsoft\\ISR Web\\DataMigrations\\DataMigrations.csproj"
+              "C:\\Development\\ISR WEB\\DataMigrations\\DataMigrations.csproj": {
+                "projectPath": "C:\\Development\\ISR WEB\\DataMigrations\\DataMigrations.csproj"
               }
             }
           }
@@ -353,31 +304,16 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.9, 6.0.9]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.9, 6.0.9]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.9, 6.0.9]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.1.22431.12\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
