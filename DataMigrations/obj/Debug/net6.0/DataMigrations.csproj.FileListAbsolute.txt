@@ -40,3 +40,4 @@ C:\Users\jsoft\jsoft\ISR Web\DataMigrations\obj\Debug\net6.0\refint\DataMigratio
 C:\Users\jsoft\jsoft\ISR Web\DataMigrations\obj\Debug\net6.0\DataMigrations.pdb
 C:\Users\jsoft\jsoft\ISR Web\DataMigrations\obj\Debug\net6.0\DataMigrations.genruntimeconfig.cache
 C:\Users\jsoft\jsoft\ISR Web\DataMigrations\obj\Debug\net6.0\ref\DataMigrations.dll
+C:\Development\ISR WEB\DataMigrations\bin\Debug\net6.0\DataMigrations.dll.config

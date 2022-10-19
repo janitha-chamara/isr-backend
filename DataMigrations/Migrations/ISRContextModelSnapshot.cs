@@ -52,6 +52,9 @@ namespace DataMigrations.Migrations
                     b.Property<decimal?>("ForecastQuotedHours")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<bool?>("IsAllTaskUpdated")
+                        .HasColumnType("bit");
+
                     b.Property<string>("JobName")
                         .HasColumnType("nvarchar(max)");
 

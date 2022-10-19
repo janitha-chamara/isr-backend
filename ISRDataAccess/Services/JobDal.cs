@@ -20,7 +20,45 @@ namespace ISRDataAccess.Services
         public IList<Models.JobModel> GetAllJob()
         {
             var result = _db.Jobs;
-            return result.Select(x => x.ToJobModel()).ToList();
+            var jobModel = (from job in _db.Jobs
+                            join taskGroup in
+                                 (
+                                     from task in _db.Tasks
+                                     where task.EstToComplHours == null && task.ActualHours != null
+                                     group task by task.JobId into tg
+                                     select new
+                                     {
+                                         id = tg.Key,
+                                         count = tg.Count()
+                                     }
+                                 ) on job.Id equals taskGroup.id into j
+                            from tasks in j.DefaultIfEmpty()
+                            select new JobModel
+                            {
+                                Id = job.Id,
+                                JobId = job.JobNo,
+                                UUID = job.UUID,
+                                JobName = job.JobName,
+                                ClientName = job.ClientName,
+                                ProjectManger = job.ProjectManger,
+                                SDM = job.SDM,
+                                ProjectStatus = job.ProjectStatus,
+                                QuotedHours = job.QuotedHours,
+                                ActualHours = job.ActualHours,
+                                StartDate = job.StartDate,
+                                DueDate = job.DueDate,
+                                WFMLastUpdate = job.WFMLastUpdate,
+                                CurrentQuotedHoursUsed = job.CurrentQuotedHoursUsed,
+                                EstToComplHours = job.EstToComplHours,
+                                TotalForeCastHours = job.TotalForeCastHours,
+                                CurrentthroughProject = job.CurrentthroughProject,
+                                ForecastQuotedHours = job.ForecastQuotedHours,
+                                TaskCompletePending = tasks.count,
+
+                            }).ToList();
+
+
+            return jobModel;
         }
 
         public int AddJobs(JobModel job)
@@ -55,17 +93,17 @@ namespace ISRDataAccess.Services
 
         }
 
-        public int UpdateJobestToComplite(decimal? forecastquoteHours, decimal? estimatetocomplite, decimal? totalforecostHours, decimal? CurrentprecentTroughProject, int jobid)
+        public int UpdateJobestToComplite(decimal? currentquotedhoursUsed, decimal? forecastquoteHours, decimal? estimatetocomplite, decimal? totalforecostHours, decimal? CurrentprecentTroughProject, int jobid)
         {
             Job jobexists = _db.Jobs.Where(x => x.Id == jobid).FirstOrDefault();
             Job extjob = new Job();
             extjob = jobexists;
             if (jobexists != null)
-            {
+            {   
                 jobexists.EstToComplHours = estimatetocomplite;
-                jobexists.TotalForeCastHours= totalforecostHours;
+                jobexists.TotalForeCastHours = totalforecostHours;
                 jobexists.CurrentthroughProject = CurrentprecentTroughProject;
-                jobexists.CurrentQuotedHoursUsed= forecastquoteHours;
+                jobexists.CurrentQuotedHoursUsed = currentquotedhoursUsed;
                 jobexists.ForecastQuotedHours = forecastquoteHours;
                 _db.Entry(extjob).CurrentValues.SetValues(jobexists);
                 _db.SaveChanges();

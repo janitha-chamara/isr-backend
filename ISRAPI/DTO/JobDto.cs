@@ -21,6 +21,7 @@ namespace ISRAPI
         public decimal? ForecastQuotedHours { get; set; }
         public DateTime? StartDate { get; set; }
         public DateTime? DueDate { get; set; }
+        public int? TaskCompletePending { get; set; }
     }
 
     public static class JobDtoMapExtensions
@@ -45,6 +46,7 @@ namespace ISRAPI
                 ForecastQuotedHours = jobDto.ForecastQuotedHours,
                 DueDate = jobDto.DueDate,
                 StartDate = jobDto.StartDate,
+                TaskCompletePending = jobDto.TaskCompletePending,
             };
             return dst;
         }
@@ -69,6 +71,7 @@ namespace ISRAPI
                 ForecastQuotedHours = jobModel.ForecastQuotedHours,
                 DueDate = jobModel.DueDate,
                 StartDate = jobModel.StartDate,
+                TaskCompletePending = jobModel.TaskCompletePending,
             };
             return job;
         }

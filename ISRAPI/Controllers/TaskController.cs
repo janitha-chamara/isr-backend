@@ -17,7 +17,7 @@ namespace ISRAPI.Controllers
 
 
 
-        public TaskController(ITaskService taskService ,IJobService jobService)
+        public TaskController(ITaskService taskService, IJobService jobService)
         {
             _taskService = taskService;
             _jobService = jobService;
@@ -36,25 +36,52 @@ namespace ISRAPI.Controllers
         public BaseResponse<int> UpdateTask(IList<TaskDto> tasklist)
         {
             decimal? estimatetocomplite = 0;
+            decimal? currentquotedhoursUsed = 0;
+
             decimal? totalforecostHours = 0;
             decimal? CurrentTroughProject = 0;
             decimal? forecastquoteHours = 0;
             decimal? ah = 0;
-
+            decimal? qh = 0;
+            int isnullCompleteHours = 0;
+            int isActualHoursNull = 0;
 
             int jobid = 0;
-
             foreach (var item in tasklist)
             {
-                jobid =item.JobId;
+                jobid = item.JobId;
                 ah += item.ActualHours;
-                estimatetocomplite += item.EstToComplHours;
-                totalforecostHours += item.TotalForecastHours;
-                forecastquoteHours = totalforecostHours / ah;
-                CurrentTroughProject = (totalforecostHours - estimatetocomplite) / totalforecostHours;
+                qh += item.QuotedHours;
+                estimatetocomplite += item.EstToComplHours ?? 0;
+                totalforecostHours += item.EstToComplHours + item.ActualHours ?? 0;
+
+                if (item.ActualHours != null && item.EstToComplHours == null)
+                {
+                    isnullCompleteHours += 1;
+                }
+
+
+                if (item.ActualHours == null && estimatetocomplite == null)
+                {
+                    totalforecostHours += item.QuotedHours;
+                }
+                if (totalforecostHours != null && totalforecostHours != 0)
+                {
+                    CurrentTroughProject = ((totalforecostHours - estimatetocomplite) / totalforecostHours) * 100;
+
+                }
+                if (ah == 0)
+                {
+                    forecastquoteHours = null;
+                }
+                else
+                {
+                    currentquotedhoursUsed = (ah / qh) * 100;
+                    forecastquoteHours = (totalforecostHours / qh ?? 0) * 100;
+                }
                 var result = _taskService.UpdateTask(item.ToTaskModel());
             }
-            var id = _jobService.UpdateEstimatetoComplete(forecastquoteHours, estimatetocomplite, totalforecostHours, CurrentTroughProject, jobid);
+            var id = _jobService.UpdateEstimatetoComplete(currentquotedhoursUsed,forecastquoteHours, estimatetocomplite, totalforecostHours, CurrentTroughProject, jobid);
 
             return new BaseResponse<int>(1);
 

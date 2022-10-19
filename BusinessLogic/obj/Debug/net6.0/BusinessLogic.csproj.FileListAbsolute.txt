@@ -53,3 +53,5 @@ C:\Users\jsoft\jsoft\ISR Web\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic
 C:\Users\jsoft\jsoft\ISR Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
 C:\Users\jsoft\jsoft\ISR Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.genruntimeconfig.cache
 C:\Users\jsoft\jsoft\ISR Web\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+C:\Development\ISR WEB\BusinessLogic\bin\Debug\net6.0\ISRDataAccess.dll.config
+C:\Development\ISR WEB\BusinessLogic\bin\Debug\net6.0\DataMigrations.dll.config

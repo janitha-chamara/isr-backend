@@ -24,6 +24,8 @@ namespace BusinessLogic.Services
             return new ServiceResponse<IList<JobModel>>(allJobs);
         }
 
+
+
         public ServiceResponse<int> AddJob(Job job)
         {
             if (job.contact == null)
@@ -53,12 +55,12 @@ namespace BusinessLogic.Services
                 ProjectManger = job.manager.Name,
                 SDM = job.contact.Name,
                 ClientName = job.client.Name,
-                QuotedHours = actualHours / 60,
-                ActualHours = quotedHours / 60,
+                QuotedHours = quotedHours / 60,
+                ActualHours = actualHours / 60,
                 CurrentQuotedHoursUsed = null,
                 CurrentthroughProject = null,
                 EstToComplHours = null,
-                ForecastQuotedHours = 0,
+                ForecastQuotedHours = null,
                 ProjectStatus = job.State,
                 TotalForeCastHours = null,
                 WFMLastUpdate = DateTime.Now,
@@ -109,7 +111,7 @@ namespace BusinessLogic.Services
                 jobmode.CurrentthroughProject = null;
                 jobmode.ForecastQuotedHours = null;
             }
-            else
+            else 
             {
                 jobmode.QuotedHours = quotedHours ;
                 jobmode.ActualHours = actualHours ;
@@ -124,9 +126,9 @@ namespace BusinessLogic.Services
             return new ServiceResponse<int>(jobid);
         }
 
-        public ServiceResponse<int> UpdateEstimatetoComplete(decimal? forecastquoteHours, decimal? estimatetocomplite, decimal? totalforecostHours, decimal? CurrentprecentTroughProject, int jobid)
+        public ServiceResponse<int> UpdateEstimatetoComplete(decimal? currentquotedhoursUsed, decimal? forecastquoteHours, decimal? estimatetocomplite, decimal? totalforecostHours, decimal? CurrentprecentTroughProject, int jobid)
         {
-            int id = _jobDal.UpdateJobestToComplite(forecastquoteHours, estimatetocomplite, totalforecostHours, CurrentprecentTroughProject, jobid);
+            int id = _jobDal.UpdateJobestToComplite(currentquotedhoursUsed,forecastquoteHours, estimatetocomplite, totalforecostHours, CurrentprecentTroughProject, jobid);
             return new ServiceResponse<int>(id);
         }
 

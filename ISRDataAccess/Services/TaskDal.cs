@@ -69,7 +69,7 @@ namespace ISRDataAccess.Services
             ExtTasks = Taskexists;
             if (Taskexists != null)
             {
-                //Taskexists.EstToComplHours = newTask.EstToComplHours;
+                Taskexists.EstToComplHours = newTask.EstToComplHours;
                 Taskexists.TotalForecastHours = newTask.TotalForecastHours;
                 Taskexists.EstToComplHours = ExtTasks.EstToComplHours;
                 _db.Entry(ExtTasks).CurrentValues.SetValues(Taskexists);

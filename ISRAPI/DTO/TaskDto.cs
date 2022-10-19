@@ -59,56 +59,83 @@ namespace ISRDataAccess.Models
             Decimal qh = 0;
             Decimal ah = 0;
 
-            if (task.EstimatedMinutes == "0")
-            {
-                task.EstimatedMinutes = task.ActualMinutes;
-                qh = Convert.ToDecimal(task.EstimatedMinutes)/60;
-            }
-
-            if (task.ActualMinutes == "0")
-            {
-                task.ActualMinutes = task.EstimatedMinutes;
-                ah = Convert.ToDecimal(task.ActualMinutes)/60;
-            }
-            qh = Convert.ToDecimal(task.EstimatedMinutes)/60;
-            ah = Convert.ToDecimal(task.ActualMinutes)/60;
+            qh = Convert.ToDecimal(task.EstimatedMinutes) / 60;
+            ah = Convert.ToDecimal(task.ActualMinutes) / 60;
             var taskModel = new TaskModel();
-            if (ah== 0 && qh==0)
+
+            if (qh != 0 && ah == 0)
             {
-                 taskModel = new TaskModel()
+                taskModel = new TaskModel()
                 {
                     UUID = task.UUID,
                     TaskName = task.Name,
                     LastUpdate = DateTime.Now,
                     QuotedHours = qh,
+                    ActualHours = null,
+                    CurrentQuoteHoursUsed = ah,
+                    EstToComplHours = null,
+                    TotalForecastHours = qh,
+                    JobId = jobid,
+                };
+            }
+            else if (qh != 0 && ah != 0)
+            {
+                taskModel = new TaskModel()
+                {
+                    UUID = task.UUID,
+                    TaskName = task.Name,
+                    LastUpdate = DateTime.Now,
+                    QuotedHours = qh,
+                    ActualHours = ah,
+                    CurrentQuoteHoursUsed = ah/qh,
+                    EstToComplHours = null,
+                    TotalForecastHours = null,
+                    JobId = jobid,
+
+                };
+            }
+            else if (qh == 0 && ah != 0)
+            {
+                taskModel = new TaskModel()
+                {
+                    UUID = task.UUID,
+                    TaskName = task.Name,
+                    LastUpdate = DateTime.Now,
+                    QuotedHours = null,
                     ActualHours = ah,
                     CurrentQuoteHoursUsed = null,
-                    EstToComplHours = 0,
-                    TotalForecastHours = ah,
+                    EstToComplHours = null,
+                    TotalForecastHours = null,
                     JobId = jobid,
-
                 };
             }
-            else
-            {
-                 taskModel = new TaskModel()
-                {
-                    UUID = task.UUID,
-                    TaskName = task.Name,
-                    LastUpdate = DateTime.Now,
-                    QuotedHours = qh,
-                    ActualHours = ah,
-                    CurrentQuoteHoursUsed = (ah / qh) * 100,
-                    EstToComplHours = 0,
-                    TotalForecastHours = ah,
-                    JobId = jobid,
-
-                };
-
-            }
-
-
+            
             return taskModel;
+        }
+
+        public static decimal? TotalForecastHours(decimal? qh, decimal? ah, decimal? tocomplitehours)
+        {
+            decimal? totoalForecastHours = null;
+
+            if (qh != null && ah != null)
+            {
+                totoalForecastHours = null;
+            }
+            else if (qh != null && ah == null)
+            {
+                totoalForecastHours = qh;
+            }
+            else if (qh != null && ah == null && tocomplitehours != null)
+            {
+                totoalForecastHours = tocomplitehours;
+            }
+            else if (qh != null && ah != null && tocomplitehours != null)
+            {
+                totoalForecastHours = tocomplitehours + ah;
+            }
+
+
+            return totoalForecastHours;
         }
     }
 }
