@@ -29,7 +29,7 @@ namespace ISRDataAccess.Services
                                      select new
                                      {
                                          id = tg.Key,
-                                         count = tg.Count()
+                                         count = tg.Count() 
                                      }
                                  ) on job.Id equals taskGroup.id into j
                             from tasks in j.DefaultIfEmpty()
@@ -99,7 +99,7 @@ namespace ISRDataAccess.Services
             Job extjob = new Job();
             extjob = jobexists;
             if (jobexists != null)
-            {   
+            {
                 jobexists.EstToComplHours = estimatetocomplite;
                 jobexists.TotalForeCastHours = totalforecostHours;
                 jobexists.CurrentthroughProject = CurrentprecentTroughProject;
