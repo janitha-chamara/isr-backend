@@ -7,17 +7,17 @@ var policyName = "_myAllowSpecificOrigins";
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy(name: policyName,
-        policyBuilder =>
-        {
-            policyBuilder
-                .WithOrigins("http://localhost:8080") // specifying the allowed origin
-                .WithMethods("GET") // defining the allowed HTTP method
-                .AllowAnyHeader(); // allowing any header to be sent
-        });
-});
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy(name: policyName,
+//        policyBuilder =>
+//        {
+//            policyBuilder
+//                .WithOrigins("http://localhost:8080") // specifying the allowed origin
+//                .WithMethods("GET") // defining the allowed HTTP method
+//                .AllowAnyHeader(); // allowing any header to be sent
+//        });
+//});
 
 builder.Services.AddControllers();
 
@@ -40,14 +40,14 @@ builder.Services.AddScoped<ITaskDal, TaskDal>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+//Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseCors(policyName);
+//app.UseCors(policyName);
 
 app.UseHttpsRedirection();
 

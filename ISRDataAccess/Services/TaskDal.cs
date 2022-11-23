@@ -72,6 +72,10 @@ namespace ISRDataAccess.Services
                 Taskexists.EstToComplHours = newTask.EstToComplHours;
                 Taskexists.TotalForecastHours = newTask.TotalForecastHours;
                 Taskexists.EstToComplHours = ExtTasks.EstToComplHours;
+                Taskexists.ActualHours = newTask.ActualHours;
+                Taskexists.QuotedHours = newTask.QuotedHours;
+                Taskexists.LastUpdate=DateTime.Now;
+                Taskexists.CurrentofQuotedHoursUsed = newTask.CurrentofQuotedHoursUsed *100;
                 _db.Entry(ExtTasks).CurrentValues.SetValues(Taskexists);
                 _db.SaveChanges();
                 return Taskexists.Id;

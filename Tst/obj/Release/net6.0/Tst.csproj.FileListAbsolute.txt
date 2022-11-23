@@ -1,0 +1,17 @@
+C:\Development\ISR WEB\Tst\bin\Release\net6.0\Tst.exe
+C:\Development\ISR WEB\Tst\bin\Release\net6.0\Tst.deps.json
+C:\Development\ISR WEB\Tst\bin\Release\net6.0\Tst.runtimeconfig.json
+C:\Development\ISR WEB\Tst\bin\Release\net6.0\Tst.dll
+C:\Development\ISR WEB\Tst\bin\Release\net6.0\Tst.pdb
+C:\Development\ISR WEB\Tst\bin\Release\net6.0\Newtonsoft.Json.dll
+C:\Development\ISR WEB\Tst\obj\Release\net6.0\Tst.csproj.AssemblyReference.cache
+C:\Development\ISR WEB\Tst\obj\Release\net6.0\Tst.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\ISR WEB\Tst\obj\Release\net6.0\Tst.AssemblyInfoInputs.cache
+C:\Development\ISR WEB\Tst\obj\Release\net6.0\Tst.AssemblyInfo.cs
+C:\Development\ISR WEB\Tst\obj\Release\net6.0\Tst.csproj.CoreCompileInputs.cache
+C:\Development\ISR WEB\Tst\obj\Release\net6.0\Tst.csproj.CopyComplete
+C:\Development\ISR WEB\Tst\obj\Release\net6.0\Tst.dll
+C:\Development\ISR WEB\Tst\obj\Release\net6.0\refint\Tst.dll
+C:\Development\ISR WEB\Tst\obj\Release\net6.0\Tst.pdb
+C:\Development\ISR WEB\Tst\obj\Release\net6.0\Tst.genruntimeconfig.cache
+C:\Development\ISR WEB\Tst\obj\Release\net6.0\ref\Tst.dll

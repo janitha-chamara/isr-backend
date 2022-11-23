@@ -244,3 +244,4 @@ C:\Development\ISR WEB\ISRAPI\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.D
 C:\Development\ISR WEB\ISRAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Development\ISR WEB\ISRAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Development\ISR WEB\ISRAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Development\ISR WEB\ISRAPI\obj\Debug\net6.0\ISRAPI.MvcApplicationPartsAssemblyInfo.cs

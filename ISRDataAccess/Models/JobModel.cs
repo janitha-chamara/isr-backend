@@ -20,6 +20,6 @@ public class JobModel
     public decimal? TotalForeCastHours { get; set; }
     public decimal? CurrentthroughProject { get; set; }
     public decimal? ForecastQuotedHours { get; set; }
-    public int? TaskCompletePending { get; set; }
+    public bool? TaskCompletePending { get; set; }
 
 }

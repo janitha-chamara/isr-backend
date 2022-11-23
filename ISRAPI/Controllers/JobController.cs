@@ -1,10 +1,5 @@
-﻿using BusinessLogic;
-using BusinessLogic.Interfaces;
-using BusinessLogic.Services;
+﻿using BusinessLogic.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.WebUtilities;
-using Newtonsoft.Json;
-using System.Xml;
 
 namespace ISRAPI.Controllers
 {
@@ -32,12 +27,12 @@ namespace ISRAPI.Controllers
         [HttpGet, Route("api/[controller]/GetAllJobs")]
         public BaseResponse<IList<JobDto>> GetAllJob()
         {
-            var allJobs = _jobService.GetAllJob();
+             var allJobs = _jobService.GetAllJob();
             var jobDtoList = allJobs.Response.Select(job => job.ToJobDto()).ToList();
 
             return new BaseResponse<IList<JobDto>>(jobDtoList);
         }
 
-        
+
     }
 }

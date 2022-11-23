@@ -29,7 +29,7 @@ namespace ISRDataAccess.Services
                                      select new
                                      {
                                          id = tg.Key,
-                                         count = tg.Count() 
+                                         count = tg.Count()
                                      }
                                  ) on job.Id equals taskGroup.id into j
                             from tasks in j.DefaultIfEmpty()
@@ -53,10 +53,10 @@ namespace ISRDataAccess.Services
                                 TotalForeCastHours = job.TotalForeCastHours,
                                 CurrentthroughProject = job.CurrentthroughProject,
                                 ForecastQuotedHours = job.ForecastQuotedHours,
-                                TaskCompletePending = tasks.count,
+                                TaskCompletePending =Convert.ToBoolean(tasks.count == null),
 
                             }).ToList();
-
+          
 
             return jobModel;
         }
@@ -103,7 +103,7 @@ namespace ISRDataAccess.Services
                 jobexists.EstToComplHours = estimatetocomplite;
                 jobexists.TotalForeCastHours = totalforecostHours;
                 jobexists.CurrentthroughProject = CurrentprecentTroughProject;
-                jobexists.CurrentQuotedHoursUsed = currentquotedhoursUsed;
+              //  jobexists.CurrentQuotedHoursUsed = currentquotedhoursUsed;
                 jobexists.ForecastQuotedHours = forecastquoteHours;
                 _db.Entry(extjob).CurrentValues.SetValues(jobexists);
                 _db.SaveChanges();

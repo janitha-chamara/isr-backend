@@ -1,11 +1,6 @@
-﻿using BusinessLogic;
-using BusinessLogic.Interfaces;
-using BusinessLogic.Services;
+﻿using BusinessLogic.Interfaces;
 using ISRDataAccess.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.WebUtilities;
-using Newtonsoft.Json;
-using System.Xml;
 
 namespace ISRAPI.Controllers
 {
@@ -37,34 +32,28 @@ namespace ISRAPI.Controllers
         {
             decimal? estimatetocomplite = 0;
             decimal? currentquotedhoursUsed = 0;
-
             decimal? totalforecostHours = 0;
             decimal? CurrentTroughProject = 0;
             decimal? forecastquoteHours = 0;
             decimal? ah = 0;
             decimal? qh = 0;
             int isnullCompleteHours = 0;
-            int isActualHoursNull = 0;
-
             int jobid = 0;
             foreach (var item in tasklist)
             {
                 jobid = item.JobId;
-                ah += item.ActualHours;
-                qh += item.QuotedHours;
+                ah += item.ActualHours ?? 0;
+                qh += item.QuotedHours ?? 0;
                 estimatetocomplite += item.EstToComplHours ?? 0;
                 totalforecostHours += item.EstToComplHours + item.ActualHours ?? 0;
 
                 if (item.ActualHours != null && item.EstToComplHours == null)
                 {
                     isnullCompleteHours += 1;
-                }
 
-
-                if (item.ActualHours == null && estimatetocomplite == null)
-                {
-                    totalforecostHours += item.QuotedHours;
                 }
+                totalforecostHours += item.TotalForecastHours ?? 0;
+
                 if (totalforecostHours != null && totalforecostHours != 0)
                 {
                     CurrentTroughProject = ((totalforecostHours - estimatetocomplite) / totalforecostHours) * 100;
@@ -81,7 +70,7 @@ namespace ISRAPI.Controllers
                 }
                 var result = _taskService.UpdateTask(item.ToTaskModel());
             }
-            var id = _jobService.UpdateEstimatetoComplete(currentquotedhoursUsed,forecastquoteHours, estimatetocomplite, totalforecostHours, CurrentTroughProject, jobid);
+            var id = _jobService.UpdateEstimatetoComplete(currentquotedhoursUsed, forecastquoteHours, estimatetocomplite, totalforecostHours, CurrentTroughProject, jobid);
 
             return new BaseResponse<int>(1);
 
