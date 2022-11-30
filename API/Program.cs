@@ -14,8 +14,11 @@ builder.Services.AddCors(options =>
         {
             policyBuilder
                 .WithOrigins("http://localhost:8080") // specifying the allowed origin
+
                 .WithMethods("GET") // defining the allowed HTTP method
-                .AllowAnyHeader(); // allowing any header to be sent
+                .AllowAnyHeader() // allowing any header to be sent
+            .AllowAnyMethod()
+            .AllowAnyOrigin();
         });
 });
 
