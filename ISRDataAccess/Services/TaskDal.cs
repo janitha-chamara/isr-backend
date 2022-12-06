@@ -70,7 +70,7 @@ namespace ISRDataAccess.Services
             if (Taskexists != null)
             {
                // Taskexists.EstToComplHours = newTask.EstToComplHours;
-                Taskexists.TotalForecastHours = newTask.TotalForecastHours;
+                Taskexists.TotalForecastHours = ExtTasks.TotalForecastHours;
                 Taskexists.EstToComplHours = ExtTasks.EstToComplHours;
                 Taskexists.ActualHours = newTask.ActualHours;
                 Taskexists.QuotedHours = newTask.QuotedHours;

@@ -53,7 +53,7 @@ namespace BusinessLogic.Services
                 StartDate = job.StartDate,
                 DueDate = job.DueDate,
                 ProjectManger = job.manager.Name,
-                SDM = job.contact.Name,
+                SDM = job.partner.Name,
                 ClientName = job.client.Name,
                 QuotedHours = quotedHours / 60,
                 ActualHours = actualHours / 60,
@@ -73,7 +73,7 @@ namespace BusinessLogic.Services
         public ServiceResponse<int> UpdateHours(decimal? actualHours, decimal? quotedHours, Job job)
         {
             var jobmode = new JobModel();
-            jobmode.SDM= job.contact.Name;
+            jobmode.SDM= job.partner.Name;
             jobmode.ClientName= job.client.Name;
             jobmode.ProjectManger = job.manager.Name;
             jobmode.ProjectStatus = job.State;
