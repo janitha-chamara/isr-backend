@@ -9,5 +9,10 @@ namespace BusinessLogic.Interfaces
         ServiceResponse<IList<TaskModel>> GetTaskByJobId(int id);
         ServiceResponse<int> UpdateTask(TaskModel taskModel);
         ServiceResponse<int> UpdateTaskFromWFM(TaskModel taskModel);
+
+        ServiceResponse<decimal?> GetEstMatetoCompletedHours(string UUID);
+
+
+        
     }
 }

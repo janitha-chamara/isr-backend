@@ -14,5 +14,9 @@ namespace ISRDataAccess.Interface
         void AddTasks(List<TaskModel> tasks);
         int UpdateTask(TaskModel task);
         int UpdateTaskFromWFM(TaskModel task);
+
+        decimal? GetEstMatetoCompletedHours(string UUID);
+
+        
     }
 }

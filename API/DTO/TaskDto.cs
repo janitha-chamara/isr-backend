@@ -53,13 +53,11 @@ namespace ISRDataAccess.Models
             };
             return job;
         }
-        public static TaskModel ToTaskModelFromWFM(this SingleTask task, int jobid)
+        public static TaskModel ToTaskModelFromWFM(this SingleTask task, int jobid, decimal? estComHours)
         {
-            Decimal qh = 0;
-            Decimal ah = 0;
 
-            qh = Convert.ToDecimal(task.EstimatedMinutes) / 60;
-            ah = Convert.ToDecimal(task.ActualMinutes) / 60;
+            decimal? qh = Convert.ToDecimal(task.EstimatedMinutes) / 60;
+            decimal? ah = Convert.ToDecimal(task.ActualMinutes) / 60;
             var taskModel = new TaskModel();
 
             if (qh != 0 && ah == 0)
@@ -77,10 +75,28 @@ namespace ISRDataAccess.Models
                     JobId = jobid,
                 };
             }
-            else if (qh != 0 && ah != 0)
+            else if (qh != 0 && ah != 0 && estComHours != null)
             {
                 taskModel = new TaskModel()
                 {
+
+                    UUID = task.UUID,
+                    TaskName = task.Name,
+                    LastUpdate = DateTime.Now,
+                    QuotedHours = qh,
+                    ActualHours = ah,
+                    CurrentQuoteHoursUsed = ah / qh,
+                    EstToComplHours = estComHours,
+                    TotalForecastHours = estComHours + ah,
+                    JobId = jobid,
+
+                };
+            }
+            else if (qh != 0 && ah != 0 && estComHours == null)
+            {
+                taskModel = new TaskModel()
+                {
+
                     UUID = task.UUID,
                     TaskName = task.Name,
                     LastUpdate = DateTime.Now,

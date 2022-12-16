@@ -32,5 +32,11 @@ namespace BusinessLogic.Services
             return new ServiceResponse<int>(_taskDal.UpdateTaskFromWFM(taskModel));
         }
 
+        public ServiceResponse<decimal?> GetEstMatetoCompletedHours(string UUID)
+        {
+            return new ServiceResponse<decimal?>(_taskDal.GetEstMatetoCompletedHours(UUID));
+
+        }
+
     }
 }

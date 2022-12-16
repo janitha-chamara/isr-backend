@@ -69,8 +69,7 @@ namespace ISRDataAccess.Services
             ExtTasks = Taskexists;
             if (Taskexists != null)
             {
-               // Taskexists.EstToComplHours = newTask.EstToComplHours;
-                Taskexists.TotalForecastHours = ExtTasks.TotalForecastHours;
+                Taskexists.TotalForecastHours = newTask.TotalForecastHours;
                 Taskexists.EstToComplHours = ExtTasks.EstToComplHours;
                 Taskexists.ActualHours = newTask.ActualHours;
                 Taskexists.QuotedHours = newTask.QuotedHours;
@@ -87,7 +86,15 @@ namespace ISRDataAccess.Services
                 return newTask.Id;
             }
 
+           
 
         }
+        public decimal? GetEstMatetoCompletedHours(string UUID)
+        {
+         var  task = _db.Tasks.Where(x => x.UUID == UUID).FirstOrDefault();
+         
+            return task.EstToComplHours;
+        }
+
     }
 }

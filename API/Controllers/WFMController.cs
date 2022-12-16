@@ -56,33 +56,41 @@ namespace ISRAPI.Controllers
                     decimal QuoteHours = 0;
                     foreach (var task in tasks)
                     {
-                        try
+                        if (task.UUID != null)
                         {
-                            if (task.UUID != null)
+
+
+                            try
                             {
-                                var ah = Convert.ToDecimal(task.ActualMinutes) / 60;
-                                var qh = Convert.ToDecimal(task.EstimatedMinutes) / 60;
-                                if (ah == 0)
+                                if (task.UUID != null)
                                 {
-                                    ah = 0;
+                                    var ah = Convert.ToDecimal(task.ActualMinutes) / 60;
+                                    var qh = Convert.ToDecimal(task.EstimatedMinutes) / 60;
+                                    if (ah == 0)
+                                    {
+                                        ah = 0;
 
-                                }
-                                if (qh == 0)
-                                {
-                                    qh = 0;
-                                }
-                                actualHours += ah;
-                                QuoteHours += qh;
+                                    }
+                                    if (qh == 0)
+                                    {
+                                        qh = 0;
+                                    }
+                                    actualHours += ah;
+                                    QuoteHours += qh;
 
-                                TaskModel taskmodel = task.ToTaskModelFromWFM(jobid.Response);
-                                var taskid = _taskService.UpdateTaskFromWFM(taskmodel);
+
+                                    var hours = _taskService.GetEstMatetoCompletedHours(task.UUID);
+
+                                    TaskModel taskmodel = task.ToTaskModelFromWFM(jobid.Response, hours.Response);
+                                    var taskid = _taskService.UpdateTaskFromWFM(taskmodel);
+                                }
+
                             }
+                            catch (Exception ex)
+                            {
 
-                        }
-                        catch (Exception ex)
-                        {
-
-                            throw ex.InnerException;
+                                throw ex.InnerException;
+                            }
                         }
 
                     }
