@@ -91,8 +91,12 @@ namespace ISRDataAccess.Services
         }
         public decimal? GetEstMatetoCompletedHours(string UUID)
         {
-         var  task = _db.Tasks.Where(x => x.UUID == UUID).FirstOrDefault();
          
+            var  task = _db.Tasks.Where(x => x.UUID == UUID).FirstOrDefault();
+            if (task==null)
+            {
+                return null;
+            }
             return task.EstToComplHours;
         }
 
