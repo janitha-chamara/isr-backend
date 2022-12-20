@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataMigrations.Migrations
 {
     [DbContext(typeof(ISRContext))]
-    [Migration("20221018025520_irs")]
-    partial class irs
+    [Migration("20221220113528_sr")]
+    partial class sr
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -55,6 +55,9 @@ namespace DataMigrations.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<bool?>("IsAllTaskUpdated")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("IsLock")
                         .HasColumnType("bit");
 
                     b.Property<string>("JobName")

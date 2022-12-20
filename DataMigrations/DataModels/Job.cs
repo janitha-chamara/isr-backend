@@ -33,6 +33,8 @@ namespace DataMigrations.DataModels
         public decimal? TotalForeCastHours { get; set; }
         public decimal? CurrentthroughProject { get; set; }
         public decimal? ForecastQuotedHours { get; set; }
+        public bool? IsAllTaskUpdated { get; set; }
+
         public bool? IsLock { get; set; }
 
 
