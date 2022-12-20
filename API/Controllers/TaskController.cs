@@ -35,12 +35,20 @@ namespace ISRAPI.Controllers
             decimal? CurrentTroughProject=0;
             decimal? ah = 0;
             decimal? qh = 0;
+            decimal? achoursNull = 0;
+           
             int jobid = 0;
             foreach (var item in tasklist)
             {
+                if (item.ActualHours==null && item.EstToComplHours ==null)
+                {
+                    achoursNull+= item.QuotedHours;
+                }
                 jobid = item.JobId;
                 ah += item.ActualHours ?? 0;
                 qh += item.QuotedHours ?? 0;
+
+
                 estimatetocomplite += item.EstToComplHours ?? 0;
                 totalforecostHours += item.TotalForecastHours ?? 0;
                 if (item.ActualHours == null && item.EstToComplHours == null|| item.ActualHours == null && item.EstToComplHours == 0)
@@ -54,15 +62,18 @@ namespace ISRAPI.Controllers
             decimal? currentquotedhoursUsed = ah / qh * 100;
             decimal? forecastquoteHours = (totalforecostHours / qh ?? 0) * 100;
 
+            estimatetocomplite = achoursNull + estimatetocomplite;
+
             if (totalforecostHours!=0)
             {
                 CurrentTroughProject= (totalforecostHours - estimatetocomplite) / totalforecostHours * 100;
 
             }
-            if (CurrentTroughProject==100)
-            {
-                CurrentTroughProject = null;
-            }
+            //if (CurrentTroughProject==100)
+            //{
+            //    CurrentTroughProject = null;
+            //}
+          
             var id = _jobService.UpdateEstimatetoComplete(currentquotedhoursUsed, forecastquoteHours, estimatetocomplite, totalforecostHours, CurrentTroughProject, jobid);
             return new BaseResponse<int>(1);
 
