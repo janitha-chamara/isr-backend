@@ -114,6 +114,16 @@ namespace ISRDataAccess.Services
 
         }
 
-
+        public int UpdateIslock(int jobid, bool? islock)
+        {
+            Job jobexists = _db.Jobs.Where(x => x.Id == jobid).FirstOrDefault();
+            if (jobexists != null)
+            {
+                jobexists.IsLock = islock;
+                _db.Entry(jobexists).CurrentValues.SetValues(jobexists);
+                _db.SaveChanges();
+            }
+                   return jobid;
+        }
     }
 }

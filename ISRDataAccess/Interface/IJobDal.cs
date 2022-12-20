@@ -8,5 +8,8 @@ namespace ISRDataAccess.Services
         IList<Models.JobModel> GetAllJob();
         int AddJobs(JobModel job);
         int UpdateJobestToComplite(decimal? currentquotedhoursUsed, decimal? forecastquoteHours, decimal? estimatetocomplite, decimal? totalforecostHours, decimal? CurrentprecentTroughProject, int jobid);
+        int UpdateIslock(int jobid, bool? islock);
+
+
     }
 }

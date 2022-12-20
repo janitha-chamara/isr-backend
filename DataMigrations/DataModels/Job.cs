@@ -33,7 +33,9 @@ namespace DataMigrations.DataModels
         public decimal? TotalForeCastHours { get; set; }
         public decimal? CurrentthroughProject { get; set; }
         public decimal? ForecastQuotedHours { get; set; }
-   
+        public bool? IsLock { get; set; }
+
+
 
 
         // NOTE: Generated code may require at least .NET Framework 4.5 or .NET Core/Standard 2.0.

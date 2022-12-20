@@ -21,5 +21,7 @@ public class JobModel
     public decimal? CurrentthroughProject { get; set; }
     public decimal? ForecastQuotedHours { get; set; }
     public bool? TaskCompletePending { get; set; }
+    public bool? isLock { get; set; }
+
 
 }

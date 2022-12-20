@@ -35,5 +35,14 @@ namespace ISRAPI.Controllers
         }
 
 
+        [HttpPost, Route("api/[controller]/UpdateIsLock")]
+        public BaseResponse <int> UpdateIsLock(JobDto job)
+        {
+            var id = _jobService.UpdateIslock(job.Id, job.isLock);
+          
+
+            return new BaseResponse <int>(id.Response);
+        }
+
     }
 }

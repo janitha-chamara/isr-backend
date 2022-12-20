@@ -132,7 +132,11 @@ namespace BusinessLogic.Services
             return new ServiceResponse<int>(id);
         }
 
-
+        public ServiceResponse<int> UpdateIslock(int jobid,bool? islock)
+        {
+            int id = _jobDal.UpdateIslock(jobid,islock);
+            return new ServiceResponse<int>(id);
+        }
     }
 
 }

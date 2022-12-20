@@ -22,6 +22,8 @@ namespace ISRAPI
         public DateTime? StartDate { get; set; }
         public DateTime? DueDate { get; set; }
         public bool? isTaskComplete { get; set; }
+        public bool? isLock { get; set; }
+
     }
 
     public static class JobDtoMapExtensions
@@ -47,6 +49,7 @@ namespace ISRAPI
                 DueDate = jobDto.DueDate,
                 StartDate = jobDto.StartDate,
                 TaskCompletePending = jobDto.isTaskComplete,
+                isLock = jobDto.isLock,
             };
             return dst;
         }
@@ -72,6 +75,7 @@ namespace ISRAPI
                 DueDate = jobModel.DueDate,
                 StartDate = jobModel.StartDate,
                 isTaskComplete = jobModel.TaskCompletePending,
+                isLock = jobModel.isLock
             };
             return job;
         }
