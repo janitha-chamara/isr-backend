@@ -35,73 +35,64 @@ namespace ISRAPI.Controllers
             foreach (var item in job)
             {
                 var isISR = CheckIsISRControl(item.Id);
-
+                var isLock = _jobService.CheckIslock(item.UUID);
 
                 if (isISR.Result == true)
                 {
-                    var jobid = _jobService.AddJob(item);
-                    var temptask = item.Tasks.Task;
-                    var tasks = new List<SingleTask>();
-                    if (temptask.GetType() == typeof(Newtonsoft.Json.Linq.JArray))
+                    if (isLock != true)
                     {
-                        SingleTask[] temptask1 = JsonConvert.DeserializeObject<SingleTask[]>(item.Tasks.Task.ToString());
-                        tasks.AddRange(temptask1);
-                    }
-                    else
-                    {
-                        SingleTask temptask1 = JsonConvert.DeserializeObject<SingleTask>(item.Tasks.Task.ToString());
-                        tasks.Add(temptask1);
-                    }
-                    decimal actualHours = 0;
-                    decimal QuoteHours = 0;
-                    foreach (var task in tasks)
-                    {
-                        if (task.UUID != null)
+                        var jobid = _jobService.AddJob(item);
+                        var temptask = item.Tasks.Task;
+                        var tasks = new List<SingleTask>();
+                        if (temptask.GetType() == typeof(Newtonsoft.Json.Linq.JArray))
                         {
-
-
-                            try
+                            SingleTask[] temptask1 = JsonConvert.DeserializeObject<SingleTask[]>(item.Tasks.Task.ToString());
+                            tasks.AddRange(temptask1);
+                        }
+                        else
+                        {
+                            SingleTask temptask1 = JsonConvert.DeserializeObject<SingleTask>(item.Tasks.Task.ToString());
+                            tasks.Add(temptask1);
+                        }
+                        decimal actualHours = 0;
+                        decimal QuoteHours = 0;
+                        foreach (var task in tasks)
+                        {
+                            if (task.UUID != null)
                             {
-                                if (task.UUID != null)
+                                try
                                 {
-                                    var ah = Convert.ToDecimal(task.ActualMinutes) / 60;
-                                    var qh = Convert.ToDecimal(task.EstimatedMinutes) / 60;
-                                    if (ah == 0)
+                                    if (task.UUID != null)
                                     {
-                                        ah = 0;
+                                        var ah = Convert.ToDecimal(task.ActualMinutes) / 60;
+                                        var qh = Convert.ToDecimal(task.EstimatedMinutes) / 60;
+                                        if (ah == 0)
+                                        {
+                                            ah = 0;
 
+                                        }
+                                        if (qh == 0)
+                                        {
+                                            qh = 0;
+                                        }
+                                        actualHours += ah;
+                                        QuoteHours += qh;
+                                        var hours = _taskService.GetEstMatetoCompletedHours(task.UUID);
+                                        TaskModel taskmodel = task.ToTaskModelFromWFM(jobid.Response, hours.Response);
+                                        var taskid = _taskService.UpdateTaskFromWFM(taskmodel);
                                     }
-                                    if (qh == 0)
-                                    {
-                                        qh = 0;
-                                    }
-                                    actualHours += ah;
-                                    QuoteHours += qh;
-
-
-                                    var hours = _taskService.GetEstMatetoCompletedHours(task.UUID);
-
-                                    TaskModel taskmodel = task.ToTaskModelFromWFM(jobid.Response, hours.Response);
-                                    var taskid = _taskService.UpdateTaskFromWFM(taskmodel);
                                 }
-
-                            }
-                            catch (Exception ex)
-                            {
-
-                                throw ex.InnerException;
+                                catch (Exception ex)
+                                {
+                                    throw ex.InnerException;
+                                }
                             }
                         }
-
+                        var jobnewid = _jobService.UpdateHours(actualHours, QuoteHours, item);
                     }
-                    var jobnewid = _jobService.UpdateHours(actualHours, QuoteHours, item);
-
                 }
-
-
             }
         }
-
         private static async Task<string> CallHttpRequest(string uri)
         {
             var httpClient = new HttpClient();

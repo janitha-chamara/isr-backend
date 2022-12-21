@@ -53,10 +53,11 @@ namespace ISRDataAccess.Services
                                 TotalForeCastHours = job.TotalForeCastHours,
                                 CurrentthroughProject = job.CurrentthroughProject,
                                 ForecastQuotedHours = job.ForecastQuotedHours,
-                                TaskCompletePending =Convert.ToBoolean(tasks.count == null),
+                                TaskCompletePending = Convert.ToBoolean(tasks.count == null),
+                                isLock = job.IsLock,
 
                             }).ToList();
-          
+
 
             return jobModel;
         }
@@ -103,7 +104,7 @@ namespace ISRDataAccess.Services
                 jobexists.EstToComplHours = estimatetocomplite;
                 jobexists.TotalForeCastHours = totalforecostHours;
                 jobexists.CurrentthroughProject = CurrentprecentTroughProject;
-              //  jobexists.CurrentQuotedHoursUsed = currentquotedhoursUsed;
+                //  jobexists.CurrentQuotedHoursUsed = currentquotedhoursUsed;
                 jobexists.ForecastQuotedHours = forecastquoteHours;
                 _db.Entry(extjob).CurrentValues.SetValues(jobexists);
                 _db.SaveChanges();
@@ -123,7 +124,19 @@ namespace ISRDataAccess.Services
                 _db.Entry(jobexists).CurrentValues.SetValues(jobexists);
                 _db.SaveChanges();
             }
-                   return jobid;
+            return jobid;
+        }
+
+        public bool? CheckIslock(string UUID)
+        {
+           
+            var jobexists = _db.Jobs.Where(x => x.UUID == UUID).FirstOrDefault();
+            if (jobexists!=null)
+            {
+                return jobexists.IsLock;
+              
+            }
+            return null;
         }
     }
 }

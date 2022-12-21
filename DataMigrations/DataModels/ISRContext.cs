@@ -18,8 +18,8 @@ namespace DataMigrations.DataModels
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-           // optionsBuilder.UseSqlServer(@"Data Source=SADEV07;Initial Catalog=ISR;User Id=isr;Password=admin@win64;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-            optionsBuilder.UseSqlServer(@"Data Source=PATHUMTHINKPAD;Initial Catalog=ISR;Integrated Security = true;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            optionsBuilder.UseSqlServer(@"Data Source=SADEV07;Initial Catalog=ISR;User Id=isr;Password=admin@win64;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+           // optionsBuilder.UseSqlServer(@"Data Source=PATHUMTHINKPAD;Initial Catalog=ISR;Integrated Security = true;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
         }
     }
 }

@@ -10,6 +10,6 @@ namespace ISRDataAccess.Services
         int UpdateJobestToComplite(decimal? currentquotedhoursUsed, decimal? forecastquoteHours, decimal? estimatetocomplite, decimal? totalforecostHours, decimal? CurrentprecentTroughProject, int jobid);
         int UpdateIslock(int jobid, bool? islock);
 
-
+        bool? CheckIslock(string UUID);
     }
 }

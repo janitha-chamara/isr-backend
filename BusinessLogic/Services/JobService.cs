@@ -137,6 +137,14 @@ namespace BusinessLogic.Services
             int id = _jobDal.UpdateIslock(jobid,islock);
             return new ServiceResponse<int>(id);
         }
+
+        public bool? CheckIslock(string UUID)
+        {
+            bool? status = _jobDal.CheckIslock(UUID);
+
+            return status;
+
+        }
     }
 
 }

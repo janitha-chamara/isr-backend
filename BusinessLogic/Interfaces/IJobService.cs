@@ -11,5 +11,7 @@ namespace BusinessLogic.Interfaces
         ServiceResponse<int> UpdateHours(decimal? actualHours, decimal? quotedHours, Job job);
         ServiceResponse<int> UpdateEstimatetoComplete(decimal? currentquotedhoursUsed, decimal? forecastquoteHours, decimal? estimatetocomplite, decimal? totalforecostHours, decimal? CurrentprecentTroughProject, int jobid);
         ServiceResponse<int> UpdateIslock(int jobid, bool? islock);
+
+        bool? CheckIslock(string UUID);
     }
 }
