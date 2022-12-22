@@ -24,6 +24,8 @@ namespace ISRAPI
         public bool? isTaskComplete { get; set; }
         public bool? isLock { get; set; }
 
+
+
     }
 
     public static class JobDtoMapExtensions
